@@ -1,0 +1,41 @@
+bw_lote,escenario_id,escenario,principal_thr_mbps,principal_rtt_ms,principal_retries,principal_parcial,ruido_thr_mbps,ruido_rtt_ms,ruido_retries,ruido_parcial
+baseline,E1_pfifo,E1 (pfifo),483.0,3.718,0,False,481.0,3.684,0,False
+baseline,E2_fq_codel,"E2 (fq_codel, sin ECN)",484.0,3.389,0,False,483.0,3.323,0,False
+baseline,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",471.0,3.182,0,False,470.0,3.187,0,False
+baseline,E4_dualpi2_prague,E4 (dualpi2 + Prague),246.0,2.733,0,False,718.0,2.839,0,False
+1mbit,E1_pfifo,E1 (pfifo),1.33,7338.761,35,False,0.524,7978.474,99,False
+1mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",0.953,44.223,60,False,0.936,44.039,61,False
+1mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",1.05,52.508,48,False,0.84,36.589,73,False
+1mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),0.564,6.51,114,False,1.38,21.061,7,False
+2mbit,E1_pfifo,E1 (pfifo),2.11,4295.063,24,False,0.591,4655.902,103,False
+2mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",1.4,27.936,7,False,1.39,28.57,7,False
+2mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",1.47,31.153,0,False,1.31,25.929,15,False
+2mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),0.976,5.007,94,False,1.83,21.082,2,False
+5mbit,E1_pfifo,E1 (pfifo),3.77,1875.723,23,False,1.68,1997.905,60,False
+5mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",2.76,17.525,0,False,2.7,17.48,0,False
+5mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",2.76,9.689,0,False,2.7,17.711,0,False
+5mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),2.31,1.898,7,False,3.16,19.694,0,False
+10mbit,E1_pfifo,E1 (pfifo),6.64,962.643,9,False,3.34,1008.594,27,False
+10mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",5.01,12.574,0,False,4.91,12.479,0,False
+10mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",5.01,12.847,0,False,4.9,12.393,0,False
+10mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),4.34,1.112,0,False,5.57,17.919,0,False
+20mbit,E1_pfifo,E1 (pfifo),13.1,499.259,2,False,6.62,512.434,3,False
+20mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",9.78,9.541,0,False,9.67,10.002,0,False
+20mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",9.77,10.067,0,False,9.67,9.833,0,False
+20mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),8.8,0.746,0,False,10.5,17.415,0,False
+50mbit,E1_pfifo,E1 (pfifo),34.3,210.909,0,False,15.1,210.405,0,False
+50mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",24.5,8.03,0,False,24.2,7.909,0,False
+50mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",24.5,7.708,0,False,24.2,7.891,0,False
+50mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),24.2,0.699,0,False,24.3,16.68,0,False
+100mbit,E1_pfifo,E1 (pfifo),60.9,108.032,0,False,38.1,106.516,0,False
+100mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",49.0,6.799,0,False,48.8,6.855,0,False
+100mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",48.9,6.659,0,False,48.7,6.94,0,False
+100mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),49.8,0.603,0,False,47.4,15.434,0,False
+200mbit,E1_pfifo,E1 (pfifo),114.0,55.215,0,False,82.8,54.473,0,False
+200mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",98.0,6.021,0,False,97.8,6.066,0,False
+200mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",98.1,6.062,0,False,97.8,6.044,0,False
+200mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),104.0,0.531,0,False,91.4,14.665,0,False
+500mbit,E1_pfifo,E1 (pfifo),249.0,22.102,0,False,241.0,21.82,0,False
+500mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",245.0,5.574,0,False,245.0,5.557,0,False
+500mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",246.0,5.565,0,False,245.0,5.573,0,False
+500mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),242.0,0.583,0,False,243.0,13.562,0,False

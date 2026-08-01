@@ -1,0 +1,41 @@
+bw_lote,escenario_id,escenario,avg_throughput_mbps,avg_rtt_ms,retries_total,n_intervals_rtt
+baseline,E1_pfifo,E1 (pfifo),942.0,3.112,0,116
+baseline,E2_fq_codel,"E2 (fq_codel, sin ECN)",942.0,3.015,0,116
+baseline,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",942.0,3.134,0,116
+baseline,E4_dualpi2_prague,E4 (dualpi2 + Prague),934.0,1.687,0,116
+1mbit,E1_pfifo,E1 (pfifo),1.93,6880.468,376,118
+1mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",2.03,47.04,351,116
+1mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",2.03,48.46,351,117
+1mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),2.11,15.805,424,116
+2mbit,E1_pfifo,E1 (pfifo),2.91,4223.554,290,116
+2mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",2.98,28.887,244,116
+2mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",2.98,24.223,244,117
+2mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),2.99,11.134,287,117
+5mbit,E1_pfifo,E1 (pfifo),5.78,1909.014,155,118
+5mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",5.85,17.553,0,118
+5mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",5.85,9.688,0,118
+5mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),5.79,9.604,21,118
+10mbit,E1_pfifo,E1 (pfifo),10.6,975.689,66,118
+10mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",10.6,12.348,0,118
+10mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",10.6,12.892,0,118
+10mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),9.42,2.344,0,118
+20mbit,E1_pfifo,E1 (pfifo),20.1,494.49,49,117
+20mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",20.1,9.715,0,118
+20mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",20.1,9.415,0,118
+20mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),18.6,0.83,0,118
+50mbit,E1_pfifo,E1 (pfifo),48.7,207.685,1,118
+50mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",48.6,8.004,0,118
+50mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",48.7,7.847,0,118
+50mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),48.3,1.309,0,118
+100mbit,E1_pfifo,E1 (pfifo),96.2,103.802,0,116
+100mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",96.4,6.953,0,116
+100mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",96.4,6.705,0,116
+100mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),95.5,1.433,0,116
+200mbit,E1_pfifo,E1 (pfifo),192.0,55.393,0,116
+200mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",192.0,6.053,0,116
+200mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",192.0,6.058,0,116
+200mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),190.0,1.317,0,116
+500mbit,E1_pfifo,E1 (pfifo),479.0,21.803,0,116
+500mbit,E2_fq_codel,"E2 (fq_codel, sin ECN)",479.0,5.613,0,116
+500mbit,E3_fq_codel_ecn,"E3 (fq_codel, ECN)",479.0,5.575,0,116
+500mbit,E4_dualpi2_prague,E4 (dualpi2 + Prague),474.0,1.231,0,116
