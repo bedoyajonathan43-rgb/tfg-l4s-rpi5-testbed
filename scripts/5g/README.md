@@ -4,11 +4,13 @@ Material para repetir las medidas de 5G de la memoria. La red es la de OpenAirIn
 
 El gNB y la UE usan las imágenes oficiales de OAI de la rama `develop`, commit `1143f7500e5e5a9cd258148f8429230cc2759554`. Las dos modificaciones de este trabajo se compilan a partir de ese mismo commit.
 
+El despliegue parte de `oai-cn5g-fed` en el commit `2712e714a2d136972dd0cca4ad09d55c5b232b21` (12/08/2026). Sobre él se cambian cuatro ficheros: el despliegue del núcleo (direcciones IP fijas, para que el gNB encuentre siempre al AMF), el de la RAN (binario del gNB con marcado, librería del simulador en tiempo real y variables de entorno) y las configuraciones del gNB y de la UE (modelo de canal con ruido).
+
 ## Carpetas
 
 | Carpeta | Contenido |
 |---|---|
-| `config/` | `docker-compose` de la RAN para las dos celdas (`...-basic.yaml`: 40 MHz, 106 PRB; `...-24prb.yaml`: 10 MHz, 24 PRB) y `ran-conf/` con la configuración del gNB de cada celda y de la UE. Se copian en `~/oai-cn5g-fed/docker-compose/` |
+| `config/` | Despliegue del núcleo con las direcciones IP fijas (`docker-compose-basic-nrf.yaml`), `docker-compose` de la RAN para las dos celdas (`...-rfsim-basic.yaml`: 40 MHz, 106 PRB; `...-rfsim-24prb.yaml`: 10 MHz, 24 PRB) y `ran-conf/` con la configuración del gNB de cada celda y de la UE. Se copian en `~/oai-cn5g-fed/docker-compose/`. `cambios_oai-cn5g-fed.patch` resume lo que cambia respecto a los ficheros originales |
 | `parches/` | Las dos modificaciones de OAI y los scripts que las compilan |
 | `campanas/` | Lanzador de campañas, cálculo de estadísticas, control del ruido y ficheros de casos (`casos/`) |
 | `analisis/` | Series temporales, retardo por tramos con capturas y scripts de las figuras |
@@ -51,6 +53,8 @@ python3 resumen_campana.py ~/campanas_oai/fase_40mhz_b
 - Una prueba en tiempo real se da por válida si menos del 5 % de los bloques de muestras llegan tarde y hay como mucho un reanclaje del reloj del simulador. Si no, se repite, hasta tres intentos.
 - `resumen_campana.py` escribe `pruebas.csv` (una fila por prueba) y `casos.csv` (media, desviación, intervalo de confianza del 95 % con la t de Student y mediana por caso).
 - El formato del fichero de casos está en la cabecera de `campana_oai.sh`. La columna `umbral` es el umbral de marcado del gNB en microsegundos.
+
+El lanzador necesita además una imagen local `tc-l4s:img`: Ubuntu 22.04 con el `tc` de L4STeam (iproute2 5.12.0, <https://github.com/L4STeam/iproute2>), que es el que sabe leer las estadísticas de dualpi2 en la UPF. Se preparó a mano dentro de un contenedor y se guardó con `docker commit`; los pasos exactos no se conservaron.
 
 Celda de 40 MHz: valores por defecto. Celda de 10 MHz con ruido:
 
