@@ -22,3 +22,7 @@ scripts/5g/l4s_gnb/
 .DS_Store
 *.swp
 *~
+
+# Excepción: salidas de iperf2 de red fija que usa la memoria
+!resultados/README.md
+!resultados/red_fija_iperf.zip

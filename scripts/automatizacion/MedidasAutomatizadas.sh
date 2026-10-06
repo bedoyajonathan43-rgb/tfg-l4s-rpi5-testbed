@@ -15,8 +15,8 @@ IPERF_SERVER_USER="rpiuser"
 
 # --- PARÁMETROS DE EXPERIMENTO ---
 DURACION=60
-VENTANA="256K"
-RESULTADOS=~/resultados_bel
+VENTANA="2000K"
+RESULTADOS=~/resultadosFinales_1_flujoC
 
 
 mkdir -p $RESULTADOS

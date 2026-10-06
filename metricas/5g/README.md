@@ -42,5 +42,5 @@ Avisos:
 
 ## Otras carpetas
 
-- `series/`: evolución segundo a segundo de seis pruebas (tres por celda), de la que salen las figuras de evolución temporal.
+- `series/`: evolución segundo a segundo de seis pruebas (tres por celda), de la que salen las figuras de evolución temporal, y ritmo de envío (`pacing_rate`) de las pruebas de Prague sin marcado: `pacing_40mhz.txt` y `pacing_todas.txt`.
 - `calibracion_ruido/`: capacidad de la celda de 10 MHz para cada nivel de ruido.
