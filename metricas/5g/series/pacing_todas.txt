@@ -1,0 +1,92 @@
+p003_dl_prague_sinmarcado_rep03:  118 pacing_rate 17.1Mbps 
+p008_dl_prague_sinmarcado_rep09:  119 pacing_rate 16.7Mbps 
+p009_dl_prague_sinmarcado_rep01:  118 pacing_rate 22.3Mbps 
+p012_dl_prague_sinmarcado_rep10:  119 pacing_rate 17.5Mbps 
+p013_dl_prague_sinmarcado_rep07:  118 pacing_rate 18Mbps 
+p027_dl_prague_sinmarcado_rep02:  118 pacing_rate 20Mbps 
+p046_dl_prague_sinmarcado_rep05:  119 pacing_rate 13.9Mbps 
+p060_dl_prague_sinmarcado_rep04:  118 pacing_rate 20Mbps 
+p067_dl_prague_sinmarcado_rep06:  119 pacing_rate 15.4Mbps 
+p070_dl_prague_sinmarcado_rep08:  118 pacing_rate 17.3Mbps 
+invalidas_p199_dl_r06_prague_sin_rep05_intento1:  82 pacing_rate 24.4Mbps 19 pacing_rate 15.7Mbps 10 pacing_rate 15.8Mbps 
+invalidas_p199_dl_r06_prague_sin_rep05_intento2:  120 pacing_rate 14.7Mbps 
+p006_dl_r50_prague_sin_rep10:  117 pacing_rate 27.5Mbps 
+p012_dl_r10_prague_sin_rep08:  119 pacing_rate 16.1Mbps 
+p013_dl_r50_prague_sin_rep06:  119 pacing_rate 16.1Mbps 
+p014_dl_r50_prague_sin_rep09:  117 pacing_rate 29.9Mbps 
+p015_dl_r50_prague_sin_rep08:  118 pacing_rate 30.1Mbps 
+p017_dl_r04_prague_sin_rep02:  120 pacing_rate 18.7Mbps 
+p023_dl_r04_prague_sin_rep10:  122 pacing_rate 26.8Mbps 
+p025_dl_r15_prague_sin_rep02:  117 pacing_rate 18.7Mbps 
+p026_dl_r04_prague_sin_rep03:  67 pacing_rate 16.2Mbps 40 pacing_rate 14.1Mbps 12 pacing_rate 2.73Mbps 
+p028_dl_r06_prague_sin_rep09:  120 pacing_rate 15.8Mbps 
+p030_dl_r10_prague_sin_rep02:  118 pacing_rate 19.6Mbps 
+p031_dl_r20_prague_sin_rep01:  118 pacing_rate 24.2Mbps 
+p033_dl_r10_prague_sin_rep06:  118 pacing_rate 26.9Mbps 
+p039_dl_r08_prague_sin_rep03:  119 pacing_rate 17.3Mbps 
+p040_dl_r04_prague_sin_rep09:  120 pacing_rate 14.3Mbps 
+p045_dl_r08_prague_sin_rep08:  118 pacing_rate 29.9Mbps 
+p049_dl_r06_prague_sin_rep01:  105 pacing_rate 33.1Mbps 7 pacing_rate 4.47Mbps 7 pacing_rate 19.6Mbps 
+p052_dl_r06_prague_sin_rep03:  120 pacing_rate 16.6Mbps 
+p054_dl_r50_prague_sin_rep04:  118 pacing_rate 30.3Mbps 
+p055_dl_r04_prague_sin_rep04:  109 pacing_rate 21.2Mbps 10 pacing_rate 2.57Mbps 
+p057_dl_r02_prague_sin_rep05:  67 pacing_rate 34.2Mbps 16 pacing_rate 1.83Mbps 9 pacing_rate 8.96Mbps 
+p058_dl_r02_prague_sin_rep06:  23 pacing_rate 2.31Mbps 19 pacing_rate 24.5Mbps 9 pacing_rate 5.42Mbps 
+p059_dl_r50_prague_sin_rep07:  120 pacing_rate 12.6Mbps 
+p060_dl_r50_prague_sin_rep03:  117 pacing_rate 23.9Mbps 
+p062_dl_r02_prague_sin_rep10:  121 pacing_rate 30.7Mbps 
+p063_dl_r15_prague_sin_rep04:  117 pacing_rate 23.5Mbps 
+p064_dl_r20_prague_sin_rep10:  97 pacing_rate 18.5Mbps 20 pacing_rate 61.9Mbps 
+p066_dl_r08_prague_sin_rep07:  120 pacing_rate 11.1Mbps 
+p079_dl_r02_prague_sin_rep01:  120 pacing_rate 15.6Mbps 
+p082_dl_r02_prague_sin_rep02:  13 pacing_rate 4.56Mbps 13 pacing_rate 4.53Mbps 12 pacing_rate 4.57Mbps 
+p088_dl_r08_prague_sin_rep05:  119 pacing_rate 31.9Mbps 
+p090_dl_r02_prague_sin_rep03:  121 pacing_rate 22.2Mbps 
+p091_dl_r50_prague_sin_rep01:  119 pacing_rate 15.1Mbps 
+p101_dl_r06_prague_sin_rep06:  120 pacing_rate 16.4Mbps 
+p104_dl_r10_prague_sin_rep03:  118 pacing_rate 17.4Mbps 
+p106_dl_r15_prague_sin_rep07:  117 pacing_rate 32.2Mbps 
+p108_dl_r20_prague_sin_rep03:  120 pacing_rate 10.8Mbps 
+p111_dl_r15_prague_sin_rep10:  119 pacing_rate 16.5Mbps 
+p115_dl_r06_prague_sin_rep10:  119 pacing_rate 21.5Mbps 
+p117_dl_r20_prague_sin_rep06:  119 pacing_rate 15.8Mbps 
+p118_dl_r10_prague_sin_rep05:  118 pacing_rate 19.8Mbps 
+p120_dl_r06_prague_sin_rep04:  118 pacing_rate 35.2Mbps 3 pacing_rate 4.82Mbps 
+p123_dl_r04_prague_sin_rep08:  120 pacing_rate 16.5Mbps 
+p124_dl_r15_prague_sin_rep01:  119 pacing_rate 16.4Mbps 
+p126_dl_r20_prague_sin_rep07:  119 pacing_rate 15.3Mbps 
+p129_dl_r50_prague_sin_rep05:  117 pacing_rate 26.1Mbps 
+p130_dl_r10_prague_sin_rep10:  118 pacing_rate 20Mbps 
+p133_dl_r08_prague_sin_rep10:  33 pacing_rate 17.8Mbps 25 pacing_rate 20.6Mbps 25 pacing_rate 20.5Mbps 
+p140_dl_r08_prague_sin_rep02:  119 pacing_rate 20.9Mbps 
+p143_dl_r06_prague_sin_rep08:  37 pacing_rate 15.5Mbps 37 pacing_rate 15.4Mbps 19 pacing_rate 15.9Mbps 
+p144_dl_r02_prague_sin_rep04:  59 pacing_rate 25.3Mbps 18 pacing_rate 1.22Mbps 13 pacing_rate 4.44Mbps 
+p150_dl_r20_prague_sin_rep04:  117 pacing_rate 22.4Mbps 
+p154_dl_r15_prague_sin_rep09:  117 pacing_rate 19.2Mbps 
+p155_dl_r50_prague_sin_rep02:  117 pacing_rate 21Mbps 
+p161_dl_r08_prague_sin_rep04:  119 pacing_rate 9.62Mbps 
+p162_dl_r20_prague_sin_rep02:  119 pacing_rate 16Mbps 
+p170_dl_r20_prague_sin_rep05:  117 pacing_rate 22.7Mbps 
+p173_dl_r10_prague_sin_rep04:  118 pacing_rate 22.8Mbps 
+p178_dl_r10_prague_sin_rep01:  118 pacing_rate 18.6Mbps 
+p182_dl_r15_prague_sin_rep03:  117 pacing_rate 22.6Mbps 
+p183_dl_r15_prague_sin_rep08:  117 pacing_rate 34.5Mbps 
+p184_dl_r20_prague_sin_rep09:  17 pacing_rate 23.8Mbps 16 pacing_rate 24Mbps 16 pacing_rate 24.3Mbps 
+p192_dl_r04_prague_sin_rep01:  119 pacing_rate 25.5Mbps 
+p194_dl_r15_prague_sin_rep06:  22 pacing_rate 19.2Mbps 18 pacing_rate 31.1Mbps 16 pacing_rate 31.5Mbps 
+p196_dl_r06_prague_sin_rep02:  120 pacing_rate 17.7Mbps 
+p197_dl_r20_prague_sin_rep08:  117 pacing_rate 28.3Mbps 
+p199_dl_r06_prague_sin_rep05:  99 pacing_rate 25.4Mbps 11 pacing_rate 15.2Mbps 6 pacing_rate 4.64Mbps 
+p201_dl_r10_prague_sin_rep07:  118 pacing_rate 15.2Mbps 
+p202_dl_r02_prague_sin_rep07:  79 pacing_rate 30.1Mbps 16 pacing_rate 1.79Mbps 9 pacing_rate 8.04Mbps 
+p203_dl_r15_prague_sin_rep05:  117 pacing_rate 28.7Mbps 
+p216_dl_r08_prague_sin_rep06:  118 pacing_rate 19.5Mbps 
+p217_dl_r02_prague_sin_rep08:  38 pacing_rate 19.9Mbps 17 pacing_rate 1.18Mbps 12 pacing_rate 4.29Mbps 
+p219_dl_r10_prague_sin_rep09:  118 pacing_rate 16.2Mbps 
+p224_dl_r08_prague_sin_rep09:  118 pacing_rate 19.2Mbps 
+p239_dl_r04_prague_sin_rep07:  120 pacing_rate 24.4Mbps 
+p240_dl_r04_prague_sin_rep06:  122 pacing_rate 29.2Mbps 
+p245_dl_r02_prague_sin_rep09:  109 pacing_rate 32.4Mbps 12 pacing_rate 1.84Mbps 
+p252_dl_r06_prague_sin_rep07:  36 pacing_rate 18.6Mbps 36 pacing_rate 18.5Mbps 28 pacing_rate 18.7Mbps 
+p255_dl_r04_prague_sin_rep05:  120 pacing_rate 24.9Mbps 
+p258_dl_r08_prague_sin_rep01:  25 pacing_rate 15.3Mbps 24 pacing_rate 15.2Mbps 21 pacing_rate 18Mbps 

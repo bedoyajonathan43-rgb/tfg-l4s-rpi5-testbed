@@ -1,121 +1,87 @@
-# TFG L4S — Testbed Raspberry Pi 5
+# Evaluación de L4S sobre redes fijas y 5G
 
-Evaluación experimental de L4S (Low Latency, Low Loss, Scalable Throughput)
-sobre un testbed físico de tres Raspberry Pi 5 interconectadas por Ethernet
-punto a punto, comparando cuatro escenarios de AQM (pfifo, fq_codel sin ECN,
-fq_codel con ECN clásico, y dualpi2 + TCP Prague con AccECN).
+Código, configuración y resultados del Trabajo de Fin de Grado «Evaluación de L4S sobre Redes Fijas y 5G», de Jonathan Bedoya Marín (ETSI de Telecomunicación, Universidad de Málaga).
 
-Este repositorio recoge los scripts de automatización de medidas, extracción
-de métricas y generación de gráficas empleados en el Trabajo de Fin de Grado
-*"Evaluación de L4S sobre Redes Fijas"* (Jonathan Bedoya Marín).
+El trabajo mide qué gana L4S (Low Latency, Low Loss and Scalable Throughput: TCP Prague, AccECN y el AQM DualPI2) frente a las colas clásicas, en dos entornos:
 
-## Topología del testbed
+- **Red fija.** Tres Raspberry Pi 5 conectadas por Ethernet. Se comparan cuatro configuraciones del router con el mismo tráfico.
+- **5G.** Una red de OpenAirInterface con el simulador de radio. La cola está en la estación base (gNB), así que el marcado L4S se ha añadido en su capa RLC.
+
+## Qué hay en cada carpeta
 
 ```
-rp51 (cliente iperf)  <-->  rp50 (router / AQM)  <-->  rp52 (servidor iperf)
-192.168.20.2                eth1: .20.1 / eth0: .10.1        192.168.10.2
+scripts/
+  automatizacion/   campañas de medida de red fija (un flujo, dos flujos, convivencia)
+  sarpkaya/         reproducción del estudio de Sarpkaya et al.
+  diagnostico/      captura del estado del socket de Prague (ECN fallback)
+  parsing/          cálculo de las tablas y figuras de red fija
+  5g/               entorno 5G: configuración, parches de OAI, campañas y análisis
+metricas/
+  red_fija/         tablas de red fija de la memoria, en CSV
+  5g/               resumen de cada campaña de 5G
+figuras/            figuras de resultados de la memoria, en PDF
+resultados/         salidas de iperf2 de las campañas de red fija que usa la memoria
 ```
 
-- **rp50**: aplica en `eth0` (salida hacia rp52) la limitación de ancho de
-  banda (HTB) y la disciplina AQM bajo evaluación en cada escenario.
-- **rp51**: genera el tráfico TCP de prueba mediante `iperf2` compilado con
-  soporte L4S.
-- **rp52**: recibe el tráfico y actúa como referencia de throughput
-  efectivamente entregado.
+Cada carpeta con contenido propio tiene su README: `scripts/5g/`, `metricas/red_fija/`, `metricas/5g/`, `figuras/` y `resultados/`.
 
-Los tres nodos ejecutan Debian GNU/Linux 12 (Bookworm) ARM64, kernel
-6.6.51-v8-16k+, con soporte nativo para `dualpi2` y TCP Prague/AccECN.
-
-## Estructura del repositorio
+## Red fija
 
 ```
-.
-├── scripts/
-│   ├── automatizacion/       # Se ejecutan EN rp51 (cliente).
-│   │                         # Orquestan el barrido de AQM x ancho de banda,
-│   │                         # lanzando tc/HTB en rp50 vía SSH e iperf2
-│   │                         # en cliente y servidor.
-│   │   ├── MedidasAutomatizadas.sh          # Campaña de flujo único
-│   │   ├── MedidasAutomatizadasParalelo.sh  # Campaña de flujos paralelos (-P 2)
-│   │   └── MedidasV8.sh                     # Campaña de coexistencia con ruido Cubic
-│   │
-│   ├── sarpkaya/              # Se ejecuta EN rp51.
-│   │   └── Reproducciones_v2_con_sanidad.sh
-│   │       Reproducción de la metodología de Sarpkaya et al. (2024):
-│   │       BW fijo a 100 Mbit/s, barrido de tamaño de buffer (0.5-8x BDP),
-│   │       RTT base de 10 ms emulado con netem, Prague sobre los 4 AQM.
-│   │
-│   ├── diagnostico/            # Se ejecuta EN rp51.
-│   │   └── DiagnosticoConRTT_ConfirmacionSesgo.sh
-│   │       Captura de estado de socket (ss -tiom) para confirmar el
-│   │       mecanismo de fallback ECN de TCP Prague bajo fq_codel con
-│   │       RTT base emulado.
-│   │
-│   └── parsing/                # Se ejecutan en la máquina de procesado
-│       │                       # (Ubuntu), NO en las Raspberry Pi.
-│       ├── extraer_metricas.py            # Campaña de flujo individual
-│       ├── extraer_metricas_paralelo.py   # Campaña de flujos paralelos
-│       ├── extraer_metricas_ruido.py      # Campaña de coexistencia
-│       └── graficar_comparativa.py        # Gráficas throughput/RTT vs BW
-│
-├── metricas/                   # CSV ya generados por los scripts de parsing
-│   ├── metricas_individual.csv
-│   ├── metricas_paralelo.csv
-│   └── metricas_ruido.csv
-│
-├── resultados/                 # (Vacío por ahora) Aquí se copian los .txt
-│                                # brutos de iperf2 descargados de las RPi
-│                                # antes de ejecutar los scripts de parsing.
-│                                # Se añadirán en una fase posterior del TFG.
-│
-└── figuras/                    # (Generada automáticamente) Salida de
-                                 # graficar_comparativa.py
+rp51 (cliente iperf2)  <-->  rp50 (router con el AQM)  <-->  rp52 (servidor iperf2)
+192.168.20.2                 eth1: .20.1 / eth0: .10.1         192.168.10.2
 ```
 
-## Flujo de trabajo
+El router rp50 limita el ancho de banda con HTB en `eth0`, hacia rp52, y pone debajo la cola de cada escenario:
 
-1. **Medida** (en rp51, vía SSH desde la Ubuntu de control):
-   ```bash
-   scp scripts/automatizacion/MedidasAutomatizadas.sh rpiuser@192.168.20.2:~/
-   ssh rpiuser@192.168.20.2 './MedidasAutomatizadas.sh'
-   ```
-   El script SSH-ea a su vez a rp50 para aplicar tc/HTB/AQM antes de cada
-   prueba, y lanza `iperf2 -e -w 2000K` contra rp52.
-
-2. **Descarga de resultados** desde rp51/rp52 a la máquina de procesado,
-   dentro de `resultados/<nombre_carpeta_campaña>/`.
-
-3. **Extracción de métricas** (en la máquina de procesado, raíz del repo):
-   ```bash
-   python3 scripts/parsing/extraer_metricas.py
-   python3 scripts/parsing/extraer_metricas_paralelo.py
-   python3 scripts/parsing/extraer_metricas_ruido.py
-   ```
-   Genera los CSV en `metricas/`.
-
-4. **Generación de gráficas**:
-   ```bash
-   python3 scripts/parsing/graficar_comparativa.py
-   ```
-   Genera las figuras en `figuras/`.
-
-## Escenarios AQM evaluados
-
-| ID | AQM | Congestión | ECN |
-|----|-----|-----------|-----|
-| E1 | pfifo (sin gestión activa) | Cubic | Desactivado |
-| E2 | fq_codel | Cubic | Desactivado (`noecn`) |
+| Escenario | Cola en el router | Control de congestión | ECN |
+|---|---|---|---|
+| E1 | pfifo (1000 paquetes) | Cubic | No |
+| E2 | fq_codel | Cubic | No (`noecn`) |
 | E3 | fq_codel | Cubic | ECN clásico (`tcp_ecn=1`) |
 | E4 | dualpi2 | TCP Prague | AccECN (`tcp_ecn=3`) |
 
-## Requisitos
+Los tres nodos usan Debian 12 (Bookworm) para ARM64 con un núcleo 6.6 que incluye `dualpi2`, TCP Prague y AccECN, e iperf2 compilado desde su código fuente.
 
-- **Raspberry Pi (rp50/rp51/rp52)**: kernel con soporte `dualpi2` y TCP
-  Prague (rama [L4STeam/linux](https://github.com/L4STeam/linux)), `iperf2`
-  compilado con soporte L4S, `iproute2` con el plugin `q_dualpi2.so`.
-- **Máquina de procesado**: Python 3.9+, `matplotlib`.
+Los scripts de medida **se ejecutan en rp50**. Configuran `tc` en el propio router y lanzan por SSH el servidor en rp52 y el cliente en rp51. Cada prueba dura 60 s.
+
+| Script | Campaña |
+|---|---|
+| `automatizacion/MedidasAutomatizadas.sh` | Un flujo, de 1 a 500 Mbit/s y sin límite |
+| `automatizacion/MedidasAutomatizadasParalelo.sh` | Dos flujos iguales en paralelo (`-P 2`) |
+| `automatizacion/MedidasV8.sh` | Convivencia: el flujo de cada escenario más un flujo de ruido Cubic |
+| `sarpkaya/Reproducciones_v2_con_sanidad.sh` | Prague y Cubic a 100 Mbit/s con 10 ms de RTT, cinco tamaños de buffer y diez repeticiones |
+| `diagnostico/DiagnosticoConRTT_ConfirmacionSesgo.sh` | Estado del socket de Prague cada 0,5 s (se ejecuta en rp51) |
+
+La carpeta de resultados y la ventana TCP se fijan en la cabecera de cada script y se cambiaron de una serie a otra. Las series de la memoria se lanzaron con `-w 2000K`.
+
+Para rehacer las tablas y las figuras de red fija no hace falta la maqueta. Basta con Python 3 y matplotlib:
+
+```bash
+python3 scripts/parsing/calcular_metricas.py          # tablas en metricas/red_fija/
+python3 scripts/parsing/graficar_red_fija.py          # ocho figuras en figuras/
+python3 scripts/parsing/graficar_series_temporales.py # dos figuras en figuras/
+```
+
+El primero y el tercero leen `resultados/red_fija_iperf.zip` sin descomprimirlo; el segundo lee las tablas que genera el primero.
+
+## 5G
+
+Todo lo de 5G está explicado en [`scripts/5g/README.md`](scripts/5g/README.md): versiones, las dos modificaciones de OpenAirInterface, cómo lanzar una campaña y cómo se analizan los resultados. Qué campaña se usa en cada parte de la memoria está en [`metricas/5g/README.md`](metricas/5g/README.md).
+
+```bash
+python3 scripts/5g/analisis/figuras_5g.py     # cuatro figuras de resultados
+python3 scripts/5g/analisis/figura_series.py  # dos figuras de evolución temporal
+```
+
+## Datos que no están aquí
+
+| Datos | Tamaño | Por qué no están |
+|---|---|---|
+| Capturas de paquetes y registros completos de red fija | Unos 74 GB | No caben en un repositorio. De cada prueba se han subido las salidas del cliente y del servidor de iperf2, que es de donde salen las tablas |
+| Datos en bruto de las campañas de 5G (una carpeta por prueba) | Unos 940 MB | Solo se han subido los resúmenes de cada campaña |
+| Capturas del estado del socket de la figura del ECN fallback | Pequeño | No se conservaron junto al resto. La figura está en `figuras/`, pero no se puede regenerar desde el repositorio |
 
 ## Autor
 
-Jonathan Bedoya Marín — Trabajo de Fin de Grado en Ingeniería de
-Telecomunicación.
+Jonathan Bedoya Marín. Trabajo de Fin de Grado, Grado en Ingeniería de Telecomunicación, Universidad de Málaga, 2026.

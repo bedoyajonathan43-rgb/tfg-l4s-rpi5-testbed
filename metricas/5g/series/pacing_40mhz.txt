@@ -1,0 +1,22 @@
+== dl_prague_sinmarcado_rep10
+ rtt:10.281/1.139 cwnd:3689 send=4.16Gbps pacing_rate=17.5Mbps delivery_rate=16.6Mbps busy:2592ms
+ rtt:10.866/1.224 cwnd:13153 send=14Gbps pacing_rate=17.5Mbps delivery_rate=17.6Mbps busy:8816ms
+ rtt:13.487/2.029 cwnd:22614 send=19.4Gbps pacing_rate=17.5Mbps delivery_rate=11.2Mbps busy:15044ms
+ rtt:11.133/1.636 cwnd:32081 send=33.4Gbps pacing_rate=17.5Mbps delivery_rate=17.6Mbps busy:21268ms
+ rtt:11.503/2.231 cwnd:41552 send=41.8Gbps pacing_rate=17.5Mbps delivery_rate=17.7Mbps busy:27500ms
+ rtt:15.432/1.859 cwnd:51017 send=38.3Gbps pacing_rate=17.5Mbps delivery_rate=10.2Mbps busy:33720ms
+ rtt:11.371/1.617 cwnd:60501 send=61.6Gbps pacing_rate=17.5Mbps delivery_rate=17.7Mbps busy:39952ms
+ rtt:14.926/3.795 cwnd:69949 send=54.3Gbps pacing_rate=17.5Mbps delivery_rate=11.1Mbps busy:46172ms
+ rtt:13.858/2.349 cwnd:79414 send=66.4Gbps pacing_rate=17.5Mbps delivery_rate=10.1Mbps busy:52396ms
+ rtt:11.534/0.914 cwnd:88877 send=89.3Gbps pacing_rate=17.5Mbps delivery_rate=15.9Mbps busy:58616ms
+== dl_prague_marcado_rep01
+ rtt:21.227/2.349 cwnd:55 send=30Mbps pacing_rate=59.2Mbps delivery_rate=20.1Mbps busy:2580ms
+ rtt:16.315/4.451 cwnd:154 send=109Mbps pacing_rate=159Mbps delivery_rate=31.4Mbps busy:8796ms
+ rtt:11.976/2.122 cwnd:154 send=149Mbps pacing_rate=159Mbps delivery_rate=56.9Mbps busy:15016ms
+ rtt:16.136/1.779 cwnd:153 send=110Mbps pacing_rate=149Mbps delivery_rate=79.8Mbps busy:21248ms
+ rtt:16.254/4.583 cwnd:156 send=111Mbps pacing_rate=153Mbps delivery_rate=54.1Mbps busy:27468ms
+ rtt:22.153/0.7 cwnd:154 send=80.5Mbps pacing_rate=164Mbps delivery_rate=76.2Mbps busy:33692ms
+ rtt:15.32/2.018 cwnd:149 send=113Mbps pacing_rate=158Mbps delivery_rate=60.5Mbps busy:39912ms
+ rtt:14.315/1.359 cwnd:150 send=121Mbps pacing_rate=129Mbps delivery_rate=78Mbps busy:46128ms
+ rtt:23.399/1.064 cwnd:150 send=74.3Mbps pacing_rate=161Mbps delivery_rate=53.7Mbps busy:52352ms
+ rtt:17.046/2.947 cwnd:155 send=105Mbps pacing_rate=165Mbps delivery_rate=48.7Mbps busy:58572ms
