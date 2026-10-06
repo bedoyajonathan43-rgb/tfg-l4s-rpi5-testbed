@@ -1,0 +1,7 @@
+nohup: ignoring input
+ronda 1  vanilla   0.47% tarde | retraso max  10.0 ms | 0 reancl. | dormido min 51.5% | 79.4 Mbits/sec ; 83.4 Mbits/sec 
+ronda 1  v2        0.47% tarde | retraso max  13.6 ms | 0 reancl. | dormido min 50.6% | 79.4 Mbits/sec ; 83.2 Mbits/sec 
+ronda 2  vanilla   0.32% tarde | retraso max  10.9 ms | 0 reancl. | dormido min 51.9% | 79.3 Mbits/sec ; 83.7 Mbits/sec 
+ronda 2  v2        0.29% tarde | retraso max   6.7 ms | 0 reancl. | dormido min 51.8% | 79.3 Mbits/sec ; 83.3 Mbits/sec 
+cpuset final: gNB=0-7 UE=8-15 UPF=16-31
+fin (en marcha: v2, umbral 0, núcleos fijados)

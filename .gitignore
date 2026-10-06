@@ -1,15 +1,8 @@
-# --- Resultados brutos pesados (se suben más adelante, con criterio) ---
+# Datos en bruto: no caben en el repositorio (ver README)
 resultados/*
 !resultados/.gitkeep
-
-# Capturas de paquetes (nunca al repo, demasiado pesadas)
 *.pcap
 *.pcapng
-
-# Figuras generadas (se regeneran con graficar_comparativa.py)
-figuras/*.png
-figuras/*.pdf
-!figuras/.gitkeep
 
 # Python
 __pycache__/
@@ -17,11 +10,15 @@ __pycache__/
 .venv/
 venv/
 
+# Copias de trabajo y restos de desarrollo
+*.antes_*
+*.orig
+scripts/5g/l4s_gnb/
+*.tgz
+*.zip
+*.tar.gz
+
 # Sistema / editores
 .DS_Store
 *.swp
 *~
-
-# Comprimidos temporales
-*.zip
-*.tar.gz

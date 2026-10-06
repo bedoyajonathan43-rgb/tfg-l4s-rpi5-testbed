@@ -1,0 +1,41 @@
+#### reposo: 10 s de ping ECT(1) con umbral 1 ms (esperado: pocas o ninguna marca)
+rtt min/avg/max/mdev = 7.639/13.168/18.441/2.935 ms
+  RLC: muestras=1021 cola_media=8 B (max 88 B, limite 50000000 B) hol_medio=0.0 ms estancia_media=0.4 ms estancia_max=1.6 ms
+       PDU=200 retx=0 descartes_buffer=0 paquetes_L4S=100 marcas=16 (16.0%) umbral=1000 us
+#### A_cubic_sin_marcado   [bajada sin límite, cca=cubic, umbral=0 us]
+  ss   : cubic rtt:230.95/5.605 cwnd:1562 retrans:1660016 pacing_rate 94016128bps retrans:0/1156 
+  goodput: [  1] 0.0000-30.2860 sec   265 MBytes  73.4 Mbits/sec  2121/0       1156     3153K/280778(6241) us  33
+  ping ECT(1): rtt min/avg/max/mdev = 15.608/193.488/319.338/67.459 ms, pipe 4
+  RLC: muestras=2343 cola_media=2309142 B (max 3600540 B, limite 50000000 B) hol_medio=213.0 ms estancia_media=214.3 ms estancia_max=329.5 ms
+       PDU=199119 retx=0 descartes_buffer=0 paquetes_L4S=202 marcas=0 (0.0%) umbral=0 us
+#### B_prague_sin_marcado   [bajada sin límite, cca=prague, umbral=0 us]
+  ss   : prague rtt:10.345/1.905 cwnd:44718 pacing_rate 21436160bps 
+  goodput: [  1] 0.0000-31.0641 sec  79.3 MBytes  21.4 Mbits/sec  634/0          0    81844K/14681(1440) us  182
+  ping ECT(1): rtt min/avg/max/mdev = 7.381/15.550/25.798/3.931 ms
+  RLC: muestras=2629 cola_media=51255 B (max 90328 B, limite 50000000 B) hol_medio=0.1 ms estancia_media=0.5 ms estancia_max=2.2 ms
+       PDU=51891 retx=0 descartes_buffer=0 paquetes_L4S=48958 marcas=0 (0.0%) umbral=0 us
+#### C_prague_umbral_10ms   [bajada sin límite, cca=prague, umbral=10000 us]
+  ss   : prague rtt:12.376/2.354 cwnd:33157 pacing_rate 15891840bps 
+  goodput: [  1] 0.0000-31.9097 sec  60.4 MBytes  15.9 Mbits/sec  483/0          0    62355K/10189(1562) us  195
+  ping ECT(1): rtt min/avg/max/mdev = 6.593/15.218/24.957/3.863 ms
+  RLC: muestras=2716 cola_media=37055 B (max 66264 B, limite 50000000 B) hol_medio=0.1 ms estancia_media=0.4 ms estancia_max=2.4 ms
+       PDU=39880 retx=0 descartes_buffer=0 paquetes_L4S=37526 marcas=0 (0.0%) umbral=10000 us
+#### D_prague_umbral_5ms   [bajada sin límite, cca=prague, umbral=5000 us]
+  ss   : prague rtt:11.322/1.072 cwnd:50265 pacing_rate 24120480bps 
+  goodput: [  1] 0.0000-30.9794 sec  88.9 MBytes  24.1 Mbits/sec  711/0          0    91783K/11915(997) us  252
+  ping ECT(1): rtt min/avg/max/mdev = 6.991/15.129/27.773/4.456 ms
+  RLC: muestras=2622 cola_media=56630 B (max 106784 B, limite 50000000 B) hol_medio=0.2 ms estancia_media=0.5 ms estancia_max=2.4 ms
+       PDU=58151 retx=0 descartes_buffer=0 paquetes_L4S=54879 marcas=0 (0.0%) umbral=5000 us
+#### E_prague_umbral_2ms   [bajada sin límite, cca=prague, umbral=2000 us]
+  ss   : prague rtt:14.732/4.297 cwnd:75 pacing_rate 87089912bps delivered_ce:2182 
+  goodput: [  1] 0.0000-30.1495 sec   132 MBytes  36.7 Mbits/sec  1055/0          0      104K/22802(2152) us  201
+  ping ECT(1): rtt min/avg/max/mdev = 7.217/15.539/27.058/5.159 ms
+  RLC: muestras=2539 cola_media=81630 B (max 183488 B, limite 50000000 B) hol_medio=0.8 ms estancia_media=0.8 ms estancia_max=5.0 ms
+       PDU=97549 retx=0 descartes_buffer=0 paquetes_L4S=85540 marcas=2773 (3.2%) umbral=2000 us
+#### F_cubic_umbral_5ms   [bajada sin límite, cca=cubic, umbral=5000 us]
+  ss   : cubic rtt:224.927/0.036 cwnd:1614 retrans:1957268 pacing_rate 99747376bps retrans:0/1363 
+  goodput: [  1] 0.0000-30.2347 sec   288 MBytes  79.8 Mbits/sec  2301/0       2297     1578K/143363(42) us  70
+  ping ECT(1): rtt min/avg/max/mdev = 10.195/194.162/330.999/58.790 ms, pipe 4
+  RLC: muestras=2469 cola_media=2300325 B (max 3629116 B, limite 50000000 B) hol_medio=201.4 ms estancia_media=202.9 ms estancia_max=329.2 ms
+       PDU=209755 retx=0 descartes_buffer=0 paquetes_L4S=203 marcas=203 (100.0%) umbral=5000 us
+#### fin (umbral restaurado a 0)

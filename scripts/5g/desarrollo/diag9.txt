@@ -1,0 +1,19 @@
+#### A_cubic_sinlim   [subida cca=cubic aqm=sinlim step=1ms]
+  ss UE : cubic rtt:690.378/4.585 cwnd:2868 pacing_rate 57747320bps delivery_rate 34480784bps unacked:1807 
+  radio: UE ca93: ulsch_rounds 2685686/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 28 (Qm 6 deltaMCS 0) NPRB 106 SNR 21.9 (+1.9) RSSI -41.1 CCE fail 0
+          goodput: [  1] 0.0000-30.6836 sec   123 MBytes  33.7 Mbits/sec  987/0       478     1698K/404506(1370) us  10.42
+#### B_prague_sinlim   [subida cca=prague aqm=sinlim step=1ms]
+  ss UE : prague rtt:11.963/2.018 cwnd:26716 pacing_rate 13982720bps delivery_rate 14094600bps unacked:10 notsent:2965340 
+  radio: UE ca93: ulsch_rounds 2699777/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 28 (Qm 6 deltaMCS 0) NPRB 57 SNR 24.2 (+4.2) RSSI -41.0 CCE fail 0
+          goodput: [  1] 0.0000-31.8663 sec  53.0 MBytes  14.0 Mbits/sec  424/0         0    54739K/13336(3608) us  131
+#### C_prague_step1   [subida cca=prague aqm=20 step=1ms]
+  ss UE : prague rtt:16.647/2.403 cwnd:9 pacing_rate 6041248bps delivery_rate 4148808bps delivered_ce:1593 unacked:9 notsent:143600 
+  AQM  : prob 0.000000 delay_c 0us delay_l 0us pkts_in_c 9375 pkts_in_l 9406 maxq 9 ecn_mark 1603 step_marks 1601 
+  radio: UE ca93: ulsch_rounds 2710600/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 28 (Qm 6 deltaMCS 0) NPRB 19 SNR 23.6 (+3.6) RSSI -40.8 CCE fail 0
+          goodput: [  1] 0.0000-30.2330 sec  17.6 MBytes  4.89 Mbits/sec  141/0         0       14K/16074(3577) us  38.03
+#### D_prague_step5   [subida cca=prague aqm=20 step=5ms]
+  ss UE : prague rtt:15.545/1.736 cwnd:19 pacing_rate 16166168bps delivery_rate 10562912bps delivered_ce:1539 unacked:17 notsent:188116 
+  AQM  : prob 0.000000 delay_c 0us delay_l 0us pkts_in_c 15222 pkts_in_l 16465 maxq 13 ecn_mark 1567 step_marks 1531 
+  radio: UE ca93: ulsch_rounds 2720663/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 28 (Qm 6 deltaMCS 0) NPRB 35 SNR 23.7 (+3.7) RSSI -40.9 CCE fail 0
+          goodput: [  1] 0.0000-30.3349 sec  30.8 MBytes  8.50 Mbits/sec  246/0         0       25K/23156(3835) us  45.90
+#### fin (todo restaurado)

@@ -1,0 +1,3 @@
+prueba,caso,modo,rep,intento,inicio,fin,valida,motivo
+p001_humo_dl_cubic_rep01,humo_dl_cubic,rt,1,1,2026-09-25 15:22:06,2026-09-25 15:22:38,si,
+p002_humo_ul_prague_rep01,humo_ul_prague,rt,1,1,2026-09-25 15:22:50,2026-09-25 15:23:23,si,

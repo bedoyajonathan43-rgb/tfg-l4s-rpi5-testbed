@@ -1,0 +1,8 @@
+caso,modo,dir,cca,punto,rate,qdisc,ruido,umbral
+dl_cubic_sinmarcado,rt,downlink,cubic,ninguno,0,ninguno,,0
+dl_prague_sinmarcado,rt,downlink,prague,ninguno,0,ninguno,,0
+dl_prague_marcado,rt,downlink,prague,ninguno,0,ninguno,,10000
+dl_cubic_marcado,rt,downlink,cubic,ninguno,0,ninguno,,10000
+dl_prague_dualpi2upf,rt,downlink,prague,upf-tun0,0,dualpi2,,0
+ul_cubic,rt,uplink,cubic,ninguno,0,ninguno,,0
+ul_prague,rt,uplink,prague,ninguno,0,ninguno,,0

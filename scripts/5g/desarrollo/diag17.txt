@@ -1,0 +1,19 @@
+UE: USE_ADDITIONAL_OPTIONS=--rfsim -r 24 --ssb 24 --numerology 1 -C 3604800000 --rfsimulator.[0].serveraddr 192.168.70.153 --log_config.global_log_options level,noc
+ASAN_OPTIONS=detect_leaks=0
+## A actual  (gNB 0-7 | UE 8-15 | resto 16-31)
+   reposo : 17.59% tarde, max   5.7 ms, 0 reancl., dormido 26%, 20000 bloques/10 s
+   carga  : 20.13% tarde, max  11.4 ms, 0 reancl., dormido 24%, 20000 bloques/10 s | 17.0 Mbits/sec
+   hilos  : UEthrea+(76.0%) ru_thre+(68.0%) L1_tx_t+(31.2%) L1_rx_t+(25.2%) UL__act+(10.5%) UL__act+(9.0%) 
+## B sin fijar  (gNB 0-31 | UE 0-31 | resto 0-31)
+   reposo :  9.24% tarde, max   5.1 ms, 0 reancl., dormido 34%, 20000 bloques/10 s
+   carga  : 16.96% tarde, max  26.3 ms, 0 reancl., dormido 28%, 20000 bloques/10 s | 17.0 Mbits/sec
+   hilos  : ru_thre+(63.8%) UEthrea+(59.1%) L1_tx_t+(32.9%) L1_rx_t+(24.4%) UL__act+(10.0%) UL__act+(8.7%) 
+## C un nodo cada uno  (gNB 0-15 | UE 16-31 | resto 0-31)
+   reposo :  0.90% tarde, max   7.7 ms, 0 reancl., dormido 44%, 20000 bloques/10 s
+   carga  :  1.18% tarde, max   7.0 ms, 0 reancl., dormido 40%, 20000 bloques/10 s | 17.0 Mbits/sec
+   hilos  : UEthrea+(69.5%) ru_thre+(55.8%) L1_tx_t+(28.2%) L1_rx_t+(26.5%) UL__act+(10.8%) UL__act+(10.2%) 
+## D mas nucleos a UE  (gNB 0-3 | UE 4-15 | resto 16-31)
+   reposo :  9.60% tarde, max   4.7 ms, 0 reancl., dormido 29%, 20002 bloques/10 s
+   carga  :  6.16% tarde, max  17.7 ms, 0 reancl., dormido 31%, 20000 bloques/10 s | 17.0 Mbits/sec
+   hilos  : UEthrea+(66.1%) ru_thre+(62.6%) L1_tx_t+(24.4%) L1_rx_t+(19.0%) UL__act+(10.7%) UL__act+(8.7%) 
+fin (queda el reparto A)

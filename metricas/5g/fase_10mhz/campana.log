@@ -1,0 +1,530 @@
+[2026-10-04 17:42:43] Plan creado: 260 pruebas (reps=10, semilla=1, duracion=60s)
+[2026-10-04 17:42:43] ==== Inicio de la campaña fase_10mhz: 260 pruebas ====
+[2026-10-04 17:42:51] [1/260] dl_r20_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 17:44:27]    valida
+[2026-10-04 17:44:54] [2/260] dl_r15_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 17:46:27]    valida
+[2026-10-04 17:46:54] [3/260] dl_r10_cubic rep 3 (modo rt, intento 1)
+[2026-10-04 17:48:29]    valida
+[2026-10-04 17:48:56] [4/260] dl_r02_cubic rep 1 (modo rt, intento 1)
+[2026-10-04 17:50:34]    valida
+[2026-10-04 17:51:01] [5/260] dl_r02_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-04 17:52:35]    valida
+[2026-10-04 17:53:02] [6/260] dl_r50_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 17:54:36]    valida
+[2026-10-04 17:55:03] [7/260] dl_r15_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 17:56:38]    valida
+[2026-10-04 17:57:05] [8/260] dl_r02_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-04 17:58:39]    valida
+[2026-10-04 17:59:05] [9/260] dl_r06_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 18:00:42]    valida
+[2026-10-04 18:01:09] [10/260] dl_r10_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 18:02:45]    valida
+[2026-10-04 18:03:12] [11/260] dl_r15_cubic rep 6 (modo rt, intento 1)
+[2026-10-04 18:04:47]    valida
+[2026-10-04 18:05:14] [12/260] dl_r10_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-04 18:06:49]    valida
+[2026-10-04 18:07:16] [13/260] dl_r50_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-04 18:08:51]    valida
+[2026-10-04 18:09:18] [14/260] dl_r50_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-04 18:10:53]    valida
+[2026-10-04 18:11:20] [15/260] dl_r50_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-04 18:12:54]    valida
+[2026-10-04 18:13:21] [16/260] dl_r10_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-04 18:14:55]    valida
+[2026-10-04 18:15:22] [17/260] dl_r04_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 18:17:00]    valida
+[2026-10-04 18:17:27] [18/260] dl_r04_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 18:19:06]    valida
+[2026-10-04 18:19:32] [19/260] ul_prague rep 6 (modo rt, intento 1)
+[2026-10-04 18:21:09]    valida
+[2026-10-04 18:21:36] [20/260] ul_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 18:23:13]    valida
+[2026-10-04 18:23:40] [21/260] dl_r10_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-04 18:25:14]    valida
+[2026-10-04 18:25:41] [22/260] ul_cubic rep 8 (modo rt, intento 1)
+[2026-10-04 18:27:18]    valida
+[2026-10-04 18:27:45] [23/260] dl_r04_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 18:29:23]    valida
+[2026-10-04 18:29:50] [24/260] dl_r10_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-04 18:31:23]    valida
+[2026-10-04 18:31:50] [25/260] dl_r15_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 18:33:25]    valida
+[2026-10-04 18:33:52] [26/260] dl_r04_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 18:35:31]    valida
+[2026-10-04 18:35:58] [27/260] dl_r08_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-04 18:37:32]    valida
+[2026-10-04 18:37:59] [28/260] dl_r06_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-04 18:39:35]    valida
+[2026-10-04 18:40:02] [29/260] dl_r02_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 18:41:47]    valida
+[2026-10-04 18:42:14] [30/260] dl_r10_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 18:43:49]    valida
+[2026-10-04 18:44:16] [31/260] dl_r20_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-04 18:45:51]    valida
+[2026-10-04 18:46:18] [32/260] dl_r02_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 18:47:55]    valida
+[2026-10-04 18:48:22] [33/260] dl_r10_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-04 18:49:58]    valida
+[2026-10-04 18:50:25] [34/260] dl_r02_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-04 18:51:59]    valida
+[2026-10-04 18:52:26] [35/260] dl_r04_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 18:54:03]    valida
+[2026-10-04 18:54:30] [36/260] dl_r10_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-04 18:56:04]    valida
+[2026-10-04 18:56:31] [37/260] dl_r08_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 18:58:07]    valida
+[2026-10-04 18:58:34] [38/260] dl_r06_cubic rep 3 (modo rt, intento 1)
+[2026-10-04 19:00:11]    valida
+[2026-10-04 19:00:38] [39/260] dl_r08_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 19:02:14]    valida
+[2026-10-04 19:02:41] [40/260] dl_r04_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-04 19:04:19]    valida
+[2026-10-04 19:04:46] [41/260] ul_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 19:06:24]    valida
+[2026-10-04 19:06:51] [42/260] dl_r08_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-04 19:08:25]    valida
+[2026-10-04 19:08:52] [43/260] dl_r20_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-04 19:10:26]    valida
+[2026-10-04 19:10:53] [44/260] dl_r50_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-04 19:12:27]    valida
+[2026-10-04 19:12:54] [45/260] dl_r08_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-04 19:14:29]    valida
+[2026-10-04 19:14:56] [46/260] dl_r15_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-04 19:16:30]    valida
+[2026-10-04 19:16:57] [47/260] dl_r10_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 19:18:34]    valida
+[2026-10-04 19:19:01] [48/260] dl_r06_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-04 19:20:35]    valida
+[2026-10-04 19:21:02] [49/260] dl_r06_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-04 19:22:39]    valida
+[2026-10-04 19:23:06] [50/260] dl_r15_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 19:24:41]    valida
+[2026-10-04 19:25:08] [51/260] dl_r15_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 19:26:42]    valida
+[2026-10-04 19:27:09] [52/260] dl_r06_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 19:28:46]    valida
+[2026-10-04 19:29:13] [53/260] dl_r20_cubic rep 9 (modo rt, intento 1)
+[2026-10-04 19:30:49]    valida
+[2026-10-04 19:31:16] [54/260] dl_r50_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 19:32:51]    valida
+[2026-10-04 19:33:18] [55/260] dl_r04_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 19:34:54]    valida
+[2026-10-04 19:35:21] [56/260] dl_r06_cubic rep 8 (modo rt, intento 1)
+[2026-10-04 19:36:58]    valida
+[2026-10-04 19:37:26] [57/260] dl_r02_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-04 19:39:07]    valida
+[2026-10-04 19:39:34] [58/260] dl_r02_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-04 19:41:17]    valida
+[2026-10-04 19:41:44] [59/260] dl_r50_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-04 19:43:20]    valida
+[2026-10-04 19:43:47] [60/260] dl_r50_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 19:45:23]    valida
+[2026-10-04 19:45:50] [61/260] dl_r20_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 19:47:24]    valida
+[2026-10-04 19:47:51] [62/260] dl_r02_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 19:49:34]    valida
+[2026-10-04 19:50:01] [63/260] dl_r15_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 19:51:37]    valida
+[2026-10-04 19:52:03] [64/260] dl_r20_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 19:53:39]    valida
+[2026-10-04 19:54:06] [65/260] dl_r20_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 19:55:41]    valida
+[2026-10-04 19:56:08] [66/260] dl_r08_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-04 19:57:45]    valida
+[2026-10-04 19:58:12] [67/260] dl_r15_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-04 19:59:46]    valida
+[2026-10-04 20:00:13] [68/260] ul_prague rep 7 (modo rt, intento 1)
+[2026-10-04 20:01:50]    valida
+[2026-10-04 20:02:17] [69/260] dl_r15_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 20:03:53]    valida
+[2026-10-04 20:04:20] [70/260] ul_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 20:05:58]    valida
+[2026-10-04 20:06:24] [71/260] dl_r04_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 20:08:04]    valida
+[2026-10-04 20:08:31] [72/260] dl_r15_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-04 20:10:05]    valida
+[2026-10-04 20:10:32] [73/260] dl_r15_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-04 20:12:07]    valida
+[2026-10-04 20:12:34] [74/260] dl_r04_cubic rep 9 (modo rt, intento 1)
+[2026-10-04 20:14:11]    valida
+[2026-10-04 20:14:38] [75/260] dl_r15_cubic rep 8 (modo rt, intento 1)
+[2026-10-04 20:16:14]    valida
+[2026-10-04 20:16:41] [76/260] dl_r06_cubic rep 9 (modo rt, intento 1)
+[2026-10-04 20:18:18]    valida
+[2026-10-04 20:18:45] [77/260] dl_r50_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 20:20:19]    valida
+[2026-10-04 20:20:46] [78/260] dl_r50_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-04 20:22:21]    valida
+[2026-10-04 20:22:48] [79/260] dl_r02_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-04 20:24:31]    valida
+[2026-10-04 20:24:58] [80/260] dl_r20_cubic rep 8 (modo rt, intento 1)
+[2026-10-04 20:26:34]    valida
+[2026-10-04 20:27:01] [81/260] dl_r02_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-04 20:28:35]    valida
+[2026-10-04 20:29:02] [82/260] dl_r02_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 20:30:41]    valida
+[2026-10-04 20:31:08] [83/260] ul_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 20:32:47]    valida
+[2026-10-04 20:33:14] [84/260] dl_r08_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 20:34:48]    valida
+[2026-10-04 20:35:15] [85/260] dl_r20_cubic rep 5 (modo rt, intento 1)
+[2026-10-04 20:36:51]    valida
+[2026-10-04 20:37:18] [86/260] dl_r20_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 20:38:54]    valida
+[2026-10-04 20:39:21] [87/260] dl_r20_cubic rep 6 (modo rt, intento 1)
+[2026-10-04 20:40:56]    valida
+[2026-10-04 20:41:23] [88/260] dl_r08_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-04 20:42:59]    valida
+[2026-10-04 20:43:26] [89/260] dl_r20_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 20:45:01]    valida
+[2026-10-04 20:45:28] [90/260] dl_r02_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 20:47:11]    valida
+[2026-10-04 20:47:38] [91/260] dl_r50_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-04 20:49:15]    valida
+[2026-10-04 20:49:41] [92/260] dl_r50_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 20:51:17]    valida
+[2026-10-04 20:51:44] [93/260] dl_r15_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-04 20:53:19]    valida
+[2026-10-04 20:53:46] [94/260] dl_r50_cubic rep 5 (modo rt, intento 1)
+[2026-10-04 20:55:22]    valida
+[2026-10-04 20:55:48] [95/260] ul_prague rep 9 (modo rt, intento 1)
+[2026-10-04 20:57:26]    valida
+[2026-10-04 20:57:53] [96/260] ul_cubic rep 3 (modo rt, intento 1)
+[2026-10-04 20:59:31]    valida
+[2026-10-04 20:59:58] [97/260] dl_r06_cubic rep 5 (modo rt, intento 1)
+[2026-10-04 21:01:35]    valida
+[2026-10-04 21:02:02] [98/260] dl_r50_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-04 21:03:36]    valida
+[2026-10-04 21:04:03] [99/260] dl_r04_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-04 21:05:38]    valida
+[2026-10-04 21:06:05] [100/260] dl_r06_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-04 21:07:40]    valida
+[2026-10-04 21:08:07] [101/260] dl_r06_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-04 21:09:44]    valida
+[2026-10-04 21:10:11] [102/260] ul_cubic rep 5 (modo rt, intento 1)
+[2026-10-04 21:11:49]    valida
+[2026-10-04 21:12:16] [103/260] dl_r50_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-04 21:13:51]    valida
+[2026-10-04 21:14:18] [104/260] dl_r10_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 21:15:55]    valida
+[2026-10-04 21:16:22] [105/260] dl_r08_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-04 21:17:56]    valida
+[2026-10-04 21:18:23] [106/260] dl_r15_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-04 21:19:59]    valida
+[2026-10-04 21:20:26] [107/260] dl_r08_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-04 21:22:01]    valida
+[2026-10-04 21:22:28] [108/260] dl_r20_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 21:24:06]    valida
+[2026-10-04 21:24:33] [109/260] dl_r06_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 21:26:15]    valida
+[2026-10-04 21:26:42] [110/260] dl_r06_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-04 21:28:17]    valida
+[2026-10-04 21:28:44] [111/260] dl_r15_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 21:30:20]    valida
+[2026-10-04 21:30:47] [112/260] dl_r15_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 21:32:24]    valida
+[2026-10-04 21:32:51] [113/260] dl_r02_cubic rep 6 (modo rt, intento 1)
+[2026-10-04 21:34:32]    valida
+[2026-10-04 21:34:59] [114/260] dl_r02_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 21:36:34]    valida
+[2026-10-04 21:37:01] [115/260] dl_r06_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 21:38:39]    valida
+[2026-10-04 21:39:06] [116/260] ul_cubic rep 9 (modo rt, intento 1)
+[2026-10-04 21:40:45]    valida
+[2026-10-04 21:41:12] [117/260] dl_r20_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-04 21:42:48]    valida
+[2026-10-04 21:43:15] [118/260] dl_r10_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-04 21:44:52]    valida
+[2026-10-04 21:45:19] [119/260] dl_r04_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-04 21:46:54]    valida
+[2026-10-04 21:47:21] [120/260] dl_r06_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 21:48:59]    valida
+[2026-10-04 21:49:26] [121/260] dl_r15_cubic rep 5 (modo rt, intento 1)
+[2026-10-04 21:51:02]    valida
+[2026-10-04 21:51:29] [122/260] ul_cubic rep 1 (modo rt, intento 1)
+[2026-10-04 21:53:08]    valida
+[2026-10-04 21:53:35] [123/260] dl_r04_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-04 21:55:14]    valida
+[2026-10-04 21:55:41] [124/260] dl_r15_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-04 21:57:18]    valida
+[2026-10-04 21:57:45] [125/260] dl_r04_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 21:59:26]    valida
+[2026-10-04 21:59:53] [126/260] dl_r20_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-04 22:01:30]    valida
+[2026-10-04 22:01:57] [127/260] dl_r10_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-04 22:03:32]    valida
+[2026-10-04 22:03:59] [128/260] dl_r08_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 22:05:36]    valida
+[2026-10-04 22:06:03] [129/260] dl_r50_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-04 22:07:39]    valida
+[2026-10-04 22:08:06] [130/260] dl_r10_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 22:09:43]    valida
+[2026-10-04 22:10:10] [131/260] dl_r20_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-04 22:11:45]    valida
+[2026-10-04 22:12:12] [132/260] dl_r20_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 22:13:49]    valida
+[2026-10-04 22:14:16] [133/260] dl_r08_prague_sin rep 10 (modo rt, intento 1)
+[2026-10-04 22:15:53]    valida
+[2026-10-04 22:16:20] [134/260] dl_r10_cubic rep 9 (modo rt, intento 1)
+[2026-10-04 22:17:56]    valida
+[2026-10-04 22:18:23] [135/260] dl_r50_cubic rep 2 (modo rt, intento 1)
+[2026-10-04 22:20:01]    valida
+[2026-10-04 22:20:28] [136/260] dl_r02_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-04 22:22:03]    valida
+[2026-10-04 22:22:30] [137/260] dl_r04_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-04 22:24:06]    valida
+[2026-10-04 22:24:33] [138/260] dl_r10_cubic rep 1 (modo rt, intento 1)
+[2026-10-04 22:26:09]    valida
+[2026-10-04 22:26:36] [139/260] dl_r04_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-04 22:28:12]    valida
+[2026-10-04 22:28:39] [140/260] dl_r08_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 22:30:16]    valida
+[2026-10-04 22:30:43] [141/260] dl_r06_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-04 22:32:18]    valida
+[2026-10-04 22:32:45] [142/260] dl_r04_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 22:34:21]    valida
+[2026-10-04 22:34:48] [143/260] dl_r06_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-04 22:36:26]    valida
+[2026-10-04 22:36:53] [144/260] dl_r02_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 22:38:40]    valida
+[2026-10-04 22:39:07] [145/260] dl_r20_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-04 22:40:42]    valida
+[2026-10-04 22:41:09] [146/260] dl_r50_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 22:42:47]    valida
+[2026-10-04 22:43:14] [147/260] dl_r02_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-04 22:44:49]    valida
+[2026-10-04 22:45:16] [148/260] dl_r04_cubic rep 8 (modo rt, intento 1)
+[2026-10-04 22:46:54]    valida
+[2026-10-04 22:47:21] [149/260] dl_r08_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-04 22:48:57]    valida
+[2026-10-04 22:49:24] [150/260] dl_r20_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 22:51:00]    valida
+[2026-10-04 22:51:27] [151/260] dl_r06_cubic rep 10 (modo rt, intento 1)
+[2026-10-04 22:53:06]    valida
+[2026-10-04 22:53:33] [152/260] dl_r08_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-04 22:55:09]    valida
+[2026-10-04 22:55:36] [153/260] dl_r02_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 22:57:11]    valida
+[2026-10-04 22:57:38] [154/260] dl_r15_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-04 22:59:15]    valida
+[2026-10-04 22:59:42] [155/260] dl_r50_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 23:01:18]    valida
+[2026-10-04 23:01:45] [156/260] ul_prague rep 3 (modo rt, intento 1)
+[2026-10-04 23:03:24]    valida
+[2026-10-04 23:03:51] [157/260] dl_r02_cubic rep 7 (modo rt, intento 1)
+[2026-10-04 23:05:30]    valida
+[2026-10-04 23:05:57] [158/260] dl_r08_cubic rep 6 (modo rt, intento 1)
+[2026-10-04 23:07:37]    valida
+[2026-10-04 23:08:04] [159/260] dl_r10_cubic rep 5 (modo rt, intento 1)
+[2026-10-04 23:09:41]    valida
+[2026-10-04 23:10:08] [160/260] dl_r06_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 23:11:44]    valida
+[2026-10-04 23:12:11] [161/260] dl_r08_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 23:13:49]    valida
+[2026-10-04 23:14:16] [162/260] dl_r20_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-04 23:15:53]    valida
+[2026-10-04 23:16:20] [163/260] dl_r50_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-04 23:17:56]    valida
+[2026-10-04 23:18:22] [164/260] ul_prague rep 8 (modo rt, intento 1)
+[2026-10-04 23:20:01]    valida
+[2026-10-04 23:20:28] [165/260] dl_r02_cubic rep 3 (modo rt, intento 1)
+[2026-10-04 23:22:15]    valida
+[2026-10-04 23:22:41] [166/260] dl_r50_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-04 23:24:17]    valida
+[2026-10-04 23:24:44] [167/260] dl_r10_cubic rep 6 (modo rt, intento 1)
+[2026-10-04 23:26:21]    valida
+[2026-10-04 23:26:48] [168/260] dl_r08_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 23:28:24]    valida
+[2026-10-04 23:28:51] [169/260] dl_r10_cubic rep 4 (modo rt, intento 1)
+[2026-10-04 23:30:30]    valida
+[2026-10-04 23:30:57] [170/260] dl_r20_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-04 23:32:33]    valida
+[2026-10-04 23:33:00] [171/260] dl_r06_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 23:34:36]    valida
+[2026-10-04 23:35:03] [172/260] dl_r04_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-04 23:36:39]    valida
+[2026-10-04 23:37:06] [173/260] dl_r10_prague_sin rep 4 (modo rt, intento 1)
+[2026-10-04 23:38:43]    valida
+[2026-10-04 23:39:10] [174/260] dl_r15_cubic rep 3 (modo rt, intento 1)
+[2026-10-04 23:40:47]    valida
+[2026-10-04 23:41:14] [175/260] dl_r08_cubic rep 3 (modo rt, intento 1)
+[2026-10-04 23:42:52]    valida
+[2026-10-04 23:43:19] [176/260] dl_r50_cubic rep 9 (modo rt, intento 1)
+[2026-10-04 23:44:56]    valida
+[2026-10-04 23:45:23] [177/260] dl_r04_cubic rep 1 (modo rt, intento 1)
+[2026-10-04 23:47:11]    valida
+[2026-10-04 23:47:38] [178/260] dl_r10_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-04 23:49:15]    valida
+[2026-10-04 23:49:42] [179/260] dl_r04_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-04 23:51:18]    valida
+[2026-10-04 23:51:45] [180/260] dl_r08_cubic rep 8 (modo rt, intento 1)
+[2026-10-04 23:53:23]    valida
+[2026-10-04 23:53:49] [181/260] dl_r06_cubic rep 1 (modo rt, intento 1)
+[2026-10-04 23:55:27]    valida
+[2026-10-04 23:55:54] [182/260] dl_r15_prague_sin rep 3 (modo rt, intento 1)
+[2026-10-04 23:57:31]    valida
+[2026-10-04 23:57:59] [183/260] dl_r15_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-04 23:59:36]    valida
+[2026-10-05 00:00:03] [184/260] dl_r20_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-05 00:01:40]    valida
+[2026-10-05 00:02:07] [185/260] dl_r06_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-05 00:03:43]    valida
+[2026-10-05 00:04:10] [186/260] dl_r08_cubic rep 10 (modo rt, intento 1)
+[2026-10-05 00:05:48]    valida
+[2026-10-05 00:06:15] [187/260] dl_r02_cubic rep 9 (modo rt, intento 1)
+[2026-10-05 00:07:59]    valida
+[2026-10-05 00:08:26] [188/260] dl_r08_cubic rep 9 (modo rt, intento 1)
+[2026-10-05 00:10:03]    valida
+[2026-10-05 00:10:30] [189/260] dl_r04_cubic rep 3 (modo rt, intento 1)
+[2026-10-05 00:12:11]    valida
+[2026-10-05 00:12:38] [190/260] dl_r02_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-05 00:14:14]    valida
+[2026-10-05 00:14:41] [191/260] dl_r15_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-05 00:16:17]    valida
+[2026-10-05 00:16:44] [192/260] dl_r04_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-05 00:18:25]    valida
+[2026-10-05 00:18:52] [193/260] dl_r20_cubic rep 1 (modo rt, intento 1)
+[2026-10-05 00:20:30]    valida
+[2026-10-05 00:20:57] [194/260] dl_r15_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-05 00:22:34]    valida
+[2026-10-05 00:23:01] [195/260] dl_r02_cubic rep 8 (modo rt, intento 1)
+[2026-10-05 00:24:41]    valida
+[2026-10-05 00:25:08] [196/260] dl_r06_prague_sin rep 2 (modo rt, intento 1)
+[2026-10-05 00:26:46]    valida
+[2026-10-05 00:27:13] [197/260] dl_r20_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-05 00:28:50]    valida
+[2026-10-05 00:29:17] [198/260] dl_r50_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-05 00:30:54]    valida
+[2026-10-05 00:31:21] [199/260] dl_r06_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-05 00:33:00]    NO valida (pacing_invalido tarde=22.39% reanclajes=5)
+[2026-10-05 00:33:24] [199/260] dl_r06_prague_sin rep 5 (modo rt, intento 2)
+[2026-10-05 00:36:01]    NO valida (pacing_invalido tarde=94.67% reanclajes=162)
+[2026-10-05 00:36:26] UE/red caída antes de p199_dl_r06_prague_sin_rep05: reinicio.
+[2026-10-05 00:36:26] Reiniciando la red 5G con RFSIM_REALTIME=1 ...
+[2026-10-05 00:37:36] Red operativa (UE 12.1.1.130).
+[2026-10-05 00:37:40] [199/260] dl_r06_prague_sin rep 5 (modo rt, intento 3)
+[2026-10-05 00:39:17]    valida
+[2026-10-05 00:39:44] [200/260] dl_r08_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-05 00:41:17]    valida
+[2026-10-05 00:41:44] [201/260] dl_r10_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-05 00:43:18]    valida
+[2026-10-05 00:43:45] [202/260] dl_r02_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-05 00:45:26]    valida
+[2026-10-05 00:45:53] [203/260] dl_r15_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-05 00:47:27]    valida
+[2026-10-05 00:47:54] [204/260] dl_r10_prague_marc rep 8 (modo rt, intento 1)
+[2026-10-05 00:49:27]    valida
+[2026-10-05 00:49:54] [205/260] ul_prague rep 5 (modo rt, intento 1)
+[2026-10-05 00:51:29]    valida
+[2026-10-05 00:51:56] [206/260] dl_r02_cubic rep 5 (modo rt, intento 1)
+[2026-10-05 00:53:33]    valida
+[2026-10-05 00:54:00] [207/260] dl_r06_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-05 00:55:34]    valida
+[2026-10-05 00:56:01] [208/260] dl_r04_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-05 00:57:34]    valida
+[2026-10-05 00:58:01] [209/260] dl_r15_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-05 00:59:34]    valida
+[2026-10-05 01:00:01] [210/260] dl_r20_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-05 01:01:34]    valida
+[2026-10-05 01:02:01] [211/260] dl_r08_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-05 01:03:34]    valida
+[2026-10-05 01:04:01] [212/260] dl_r08_cubic rep 7 (modo rt, intento 1)
+[2026-10-05 01:05:37]    valida
+[2026-10-05 01:06:04] [213/260] dl_r10_prague_marc rep 3 (modo rt, intento 1)
+[2026-10-05 01:07:37]    valida
+[2026-10-05 01:08:04] [214/260] dl_r02_prague_marc rep 10 (modo rt, intento 1)
+[2026-10-05 01:09:37]    valida
+[2026-10-05 01:10:04] [215/260] dl_r20_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-05 01:11:37]    valida
+[2026-10-05 01:12:04] [216/260] dl_r08_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-05 01:13:39]    valida
+[2026-10-05 01:14:06] [217/260] dl_r02_prague_sin rep 8 (modo rt, intento 1)
+[2026-10-05 01:15:51]    valida
+[2026-10-05 01:16:18] [218/260] dl_r04_cubic rep 6 (modo rt, intento 1)
+[2026-10-05 01:17:56]    valida
+[2026-10-05 01:18:23] [219/260] dl_r10_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-05 01:19:58]    valida
+[2026-10-05 01:20:25] [220/260] dl_r20_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-05 01:21:58]    valida
+[2026-10-05 01:22:25] [221/260] dl_r06_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-05 01:23:58]    valida
+[2026-10-05 01:24:25] [222/260] ul_prague rep 1 (modo rt, intento 1)
+[2026-10-05 01:26:01]    valida
+[2026-10-05 01:26:28] [223/260] dl_r50_cubic rep 3 (modo rt, intento 1)
+[2026-10-05 01:28:02]    valida
+[2026-10-05 01:28:29] [224/260] dl_r08_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-05 01:30:04]    valida
+[2026-10-05 01:30:31] [225/260] ul_prague rep 2 (modo rt, intento 1)
+[2026-10-05 01:32:07]    valida
+[2026-10-05 01:32:34] [226/260] dl_r50_cubic rep 7 (modo rt, intento 1)
+[2026-10-05 01:34:10]    valida
+[2026-10-05 01:34:37] [227/260] dl_r50_cubic rep 6 (modo rt, intento 1)
+[2026-10-05 01:36:12]    valida
+[2026-10-05 01:36:38] [228/260] ul_cubic rep 6 (modo rt, intento 1)
+[2026-10-05 01:38:15]    valida
+[2026-10-05 01:38:42] [229/260] dl_r15_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-05 01:40:16]    valida
+[2026-10-05 01:40:43] [230/260] dl_r50_prague_marc rep 7 (modo rt, intento 1)
+[2026-10-05 01:42:16]    valida
+[2026-10-05 01:42:43] [231/260] dl_r06_cubic rep 2 (modo rt, intento 1)
+[2026-10-05 01:44:19]    valida
+[2026-10-05 01:44:46] [232/260] dl_r20_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-05 01:46:20]    valida
+[2026-10-05 01:46:47] [233/260] dl_r04_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-05 01:48:21]    valida
+[2026-10-05 01:48:47] [234/260] dl_r04_cubic rep 5 (modo rt, intento 1)
+[2026-10-05 01:50:26]    valida
+[2026-10-05 01:50:53] [235/260] ul_prague rep 10 (modo rt, intento 1)
+[2026-10-05 01:52:30]    valida
+[2026-10-05 01:52:57] [236/260] dl_r10_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-05 01:54:30]    valida
+[2026-10-05 01:54:57] [237/260] dl_r06_prague_marc rep 9 (modo rt, intento 1)
+[2026-10-05 01:56:31]    valida
+[2026-10-05 01:56:58] [238/260] dl_r50_cubic rep 1 (modo rt, intento 1)
+[2026-10-05 01:58:34]    valida
+[2026-10-05 01:59:01] [239/260] dl_r04_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-05 02:00:39]    valida
+[2026-10-05 02:01:06] [240/260] dl_r04_prague_sin rep 6 (modo rt, intento 1)
+[2026-10-05 02:02:43]    valida
+[2026-10-05 02:03:10] [241/260] dl_r06_cubic rep 6 (modo rt, intento 1)
+[2026-10-05 02:04:46]    valida
+[2026-10-05 02:05:12] [242/260] dl_r10_prague_marc rep 1 (modo rt, intento 1)
+[2026-10-05 02:06:46]    valida
+[2026-10-05 02:07:13] [243/260] dl_r10_cubic rep 10 (modo rt, intento 1)
+[2026-10-05 02:08:48]    valida
+[2026-10-05 02:09:15] [244/260] dl_r02_cubic rep 4 (modo rt, intento 1)
+[2026-10-05 02:10:55]    valida
+[2026-10-05 02:11:22] [245/260] dl_r02_prague_sin rep 9 (modo rt, intento 1)
+[2026-10-05 02:12:59]    valida
+[2026-10-05 02:13:26] [246/260] dl_r50_cubic rep 8 (modo rt, intento 1)
+[2026-10-05 02:15:02]    valida
+[2026-10-05 02:15:29] [247/260] dl_r08_cubic rep 5 (modo rt, intento 1)
+[2026-10-05 02:17:04]    valida
+[2026-10-05 02:17:31] [248/260] dl_r50_prague_marc rep 5 (modo rt, intento 1)
+[2026-10-05 02:19:04]    valida
+[2026-10-05 02:19:31] [249/260] dl_r20_prague_marc rep 4 (modo rt, intento 1)
+[2026-10-05 02:21:05]    valida
+[2026-10-05 02:21:32] [250/260] dl_r04_prague_marc rep 2 (modo rt, intento 1)
+[2026-10-05 02:23:06]    valida
+[2026-10-05 02:23:33] [251/260] dl_r10_cubic rep 8 (modo rt, intento 1)
+[2026-10-05 02:25:08]    valida
+[2026-10-05 02:25:35] [252/260] dl_r06_prague_sin rep 7 (modo rt, intento 1)
+[2026-10-05 02:27:12]    valida
+[2026-10-05 02:27:39] [253/260] dl_r08_cubic rep 1 (modo rt, intento 1)
+[2026-10-05 02:29:14]    valida
+[2026-10-05 02:29:41] [254/260] dl_r10_prague_marc rep 6 (modo rt, intento 1)
+[2026-10-05 02:31:15]    valida
+[2026-10-05 02:31:42] [255/260] dl_r04_prague_sin rep 5 (modo rt, intento 1)
+[2026-10-05 02:33:19]    valida
+[2026-10-05 02:33:46] [256/260] ul_prague rep 4 (modo rt, intento 1)
+[2026-10-05 02:35:23]    valida
+[2026-10-05 02:35:50] [257/260] dl_r15_cubic rep 1 (modo rt, intento 1)
+[2026-10-05 02:37:25]    valida
+[2026-10-05 02:37:52] [258/260] dl_r08_prague_sin rep 1 (modo rt, intento 1)
+[2026-10-05 02:39:28]    valida
+[2026-10-05 02:39:55] [259/260] dl_r20_cubic rep 3 (modo rt, intento 1)
+[2026-10-05 02:41:31]    valida
+[2026-10-05 02:41:58] [260/260] dl_r15_cubic rep 9 (modo rt, intento 1)
+[2026-10-05 02:43:33]    valida
+[2026-10-05 02:43:53] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase_10mhz ====

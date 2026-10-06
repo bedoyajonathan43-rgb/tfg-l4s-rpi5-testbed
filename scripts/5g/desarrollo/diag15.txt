@@ -1,0 +1,7 @@
+ronda 1  vanilla   9.98% tarde,  3 reancl. | CPU us 12% sy 7% steal 0.0% | 78.7 Mbits/sec ; 83.7 Mbits/sec 
+ronda 1  v2       38.41% tarde,  0 reancl. | CPU us 12% sy 7% steal 0.0% | 79.4 Mbits/sec ; 83.4 Mbits/sec 
+ronda 2  vanilla   4.64% tarde,  0 reancl. | CPU us 12% sy 7% steal 0.0% | 79.4 Mbits/sec ; 82.6 Mbits/sec 
+ronda 2  v2       12.18% tarde,  0 reancl. | CPU us 12% sy 6% steal 0.0% | 79.4 Mbits/sec ; 83.0 Mbits/sec 
+ronda 3  vanilla   0.82% tarde,  0 reancl. | CPU us 12% sy 7% steal 0.0% | 79.4 Mbits/sec ; 83.3 Mbits/sec 
+ronda 3  v2       41.24% tarde,  0 reancl. | CPU us 13% sy 7% steal 0.0% | 79.4 Mbits/sec ; 83.4 Mbits/sec 
+fin (en marcha: v2, umbral 0)

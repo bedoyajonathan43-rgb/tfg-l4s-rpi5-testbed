@@ -1,0 +1,21 @@
+[2026-10-05 16:15:36] Plan creado: 9 pruebas (reps=3, semilla=1, duracion=60s)
+[2026-10-05 16:15:36] ==== Inicio de la campaña capas_10mhz_r4: 9 pruebas ====
+[2026-10-05 16:15:44] [1/9] capas_cubic rep 3 (modo rt, intento 1)
+[2026-10-05 16:17:23]    valida
+[2026-10-05 16:17:50] [2/9] capas_prague_sinmarcado rep 1 (modo rt, intento 1)
+[2026-10-05 16:19:27]    valida
+[2026-10-05 16:19:54] [3/9] capas_prague_sinmarcado rep 2 (modo rt, intento 1)
+[2026-10-05 16:21:32]    valida
+[2026-10-05 16:21:59] [4/9] capas_cubic rep 2 (modo rt, intento 1)
+[2026-10-05 16:23:38]    valida
+[2026-10-05 16:24:05] [5/9] capas_cubic rep 1 (modo rt, intento 1)
+[2026-10-05 16:25:43]    valida
+[2026-10-05 16:26:10] [6/9] capas_prague_marcado rep 1 (modo rt, intento 1)
+[2026-10-05 16:27:43]    valida
+[2026-10-05 16:28:10] [7/9] capas_prague_sinmarcado rep 3 (modo rt, intento 1)
+[2026-10-05 16:29:48]    valida
+[2026-10-05 16:30:15] [8/9] capas_prague_marcado rep 2 (modo rt, intento 1)
+[2026-10-05 16:31:49]    valida
+[2026-10-05 16:32:16] [9/9] capas_prague_marcado rep 3 (modo rt, intento 1)
+[2026-10-05 16:33:49]    valida
+[2026-10-05 16:34:10] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/capas_10mhz_r4 ====

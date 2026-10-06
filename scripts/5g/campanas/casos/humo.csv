@@ -1,0 +1,3 @@
+caso,modo,dir,cca,punto,rate,qdisc
+humo_ul_prague,rt,uplink,prague,upf-eth0,2,dualpi2
+humo_dl_cubic,rt,downlink,cubic,upf-tun0,5,dualpi2

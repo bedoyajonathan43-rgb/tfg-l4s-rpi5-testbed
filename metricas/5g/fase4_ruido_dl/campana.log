@@ -1,0 +1,338 @@
+[2026-09-28 08:09:49] Plan creado: 160 pruebas (reps=10, semilla=1, duracion=60s)
+[2026-09-28 08:09:49] ==== Inicio de la campaña fase4_ruido_dl: 160 pruebas ====
+[2026-09-28 08:09:56] [1/160] dl_cubic_sinlim_leve rep 10 (modo rt, intento 1)
+[2026-09-28 08:11:24]    valida
+[2026-09-28 08:11:51] [2/160] dl_cubic_5_upf_fuerte rep 7 (modo rt, intento 1)
+[2026-09-28 08:13:29]    valida
+[2026-09-28 08:13:56] [3/160] dl_prague_sinlim_medio rep 9 (modo rt, intento 1)
+[2026-09-28 08:15:27]    valida
+[2026-09-28 08:15:54] [4/160] dl_cubic_sinlim_medio rep 3 (modo rt, intento 1)
+[2026-09-28 08:17:24]    valida
+[2026-09-28 08:17:51] [5/160] dl_prague_sinlim_leve rep 10 (modo rt, intento 1)
+[2026-09-28 08:19:19]    valida
+[2026-09-28 08:19:46] [6/160] dl_prague_5_upf_sinruido rep 10 (modo rt, intento 1)
+[2026-09-28 08:21:13]    valida
+[2026-09-28 08:21:40] [7/160] dl_cubic_sinlim_medio rep 7 (modo rt, intento 1)
+[2026-09-28 08:23:11]    valida
+[2026-09-28 08:23:38] [8/160] dl_prague_sinlim_sinruido rep 5 (modo rt, intento 1)
+[2026-09-28 08:25:05]    NO valida (pacing_invalido tarde=5.22% reanclajes=0)
+[2026-09-28 08:25:29] [8/160] dl_prague_sinlim_sinruido rep 5 (modo rt, intento 2)
+[2026-09-28 08:26:56]    valida
+[2026-09-28 08:27:23] [9/160] dl_cubic_5_upf_fuerte rep 8 (modo rt, intento 1)
+[2026-09-28 08:28:58]    valida
+[2026-09-28 08:29:25] [10/160] dl_cubic_5_upf_sinruido rep 9 (modo rt, intento 1)
+[2026-09-28 08:30:52]    valida
+[2026-09-28 08:31:19] [11/160] dl_prague_sinlim_leve rep 5 (modo rt, intento 1)
+[2026-09-28 08:32:46]    valida
+[2026-09-28 08:33:13] [12/160] dl_prague_5_upf_medio rep 9 (modo rt, intento 1)
+[2026-09-28 08:34:40]    valida
+[2026-09-28 08:35:07] [13/160] dl_cubic_sinlim_fuerte rep 4 (modo rt, intento 1)
+[2026-09-28 08:36:46]    valida
+[2026-09-28 08:37:13] [14/160] dl_cubic_sinlim_leve rep 7 (modo rt, intento 1)
+[2026-09-28 08:38:40]    valida
+[2026-09-28 08:39:07] [15/160] dl_prague_sinlim_medio rep 4 (modo rt, intento 1)
+[2026-09-28 08:40:39]    valida
+[2026-09-28 08:41:06] [16/160] dl_cubic_sinlim_fuerte rep 8 (modo rt, intento 1)
+[2026-09-28 08:42:39]    valida
+[2026-09-28 08:43:06] [17/160] dl_prague_sinlim_sinruido rep 4 (modo rt, intento 1)
+[2026-09-28 08:44:33]    valida
+[2026-09-28 08:45:00] [18/160] dl_cubic_sinlim_medio rep 2 (modo rt, intento 1)
+[2026-09-28 08:46:30]    valida
+[2026-09-28 08:46:57] [19/160] dl_cubic_5_upf_medio rep 3 (modo rt, intento 1)
+[2026-09-28 08:48:24]    valida
+[2026-09-28 08:48:51] [20/160] dl_prague_sinlim_sinruido rep 9 (modo rt, intento 1)
+[2026-09-28 08:50:18]    valida
+[2026-09-28 08:50:45] [21/160] dl_cubic_sinlim_leve rep 2 (modo rt, intento 1)
+[2026-09-28 08:52:13]    valida
+[2026-09-28 08:52:40] [22/160] dl_cubic_5_upf_sinruido rep 1 (modo rt, intento 1)
+[2026-09-28 08:54:07]    valida
+[2026-09-28 08:54:34] [23/160] dl_prague_5_upf_medio rep 1 (modo rt, intento 1)
+[2026-09-28 08:56:02]    valida
+[2026-09-28 08:56:29] [24/160] dl_cubic_5_upf_sinruido rep 10 (modo rt, intento 1)
+[2026-09-28 08:57:56]    valida
+[2026-09-28 08:58:23] [25/160] dl_prague_sinlim_medio rep 8 (modo rt, intento 1)
+[2026-09-28 08:59:54]    valida
+[2026-09-28 09:00:21] [26/160] dl_cubic_5_upf_fuerte rep 4 (modo rt, intento 1)
+[2026-09-28 09:01:58]    valida
+[2026-09-28 09:02:25] [27/160] dl_prague_5_upf_medio rep 6 (modo rt, intento 1)
+[2026-09-28 09:03:53]    valida
+[2026-09-28 09:04:20] [28/160] dl_prague_sinlim_fuerte rep 3 (modo rt, intento 1)
+[2026-09-28 09:05:58]    valida
+[2026-09-28 09:06:25] [29/160] dl_prague_5_upf_fuerte rep 10 (modo rt, intento 1)
+[2026-09-28 09:08:03]    valida
+[2026-09-28 09:08:30] [30/160] dl_cubic_sinlim_medio rep 10 (modo rt, intento 1)
+[2026-09-28 09:10:02]    valida
+[2026-09-28 09:10:29] [31/160] dl_prague_5_upf_medio rep 2 (modo rt, intento 1)
+[2026-09-28 09:11:56]    valida
+[2026-09-28 09:12:23] [32/160] dl_prague_sinlim_sinruido rep 10 (modo rt, intento 1)
+[2026-09-28 09:13:50]    valida
+[2026-09-28 09:14:17] [33/160] dl_prague_sinlim_fuerte rep 1 (modo rt, intento 1)
+[2026-09-28 09:16:43]    NO valida (pacing_invalido tarde=85.49% reanclajes=633)
+[2026-09-28 09:17:03] UE/red caída antes de p033_dl_prague_sinlim_fuerte_rep01: reinicio.
+[2026-09-28 09:17:03] Reiniciando la red 5G con RFSIM_REALTIME=1 ...
+[2026-09-28 09:18:07] Red operativa (UE 12.1.1.130).
+[2026-09-28 09:18:10] [33/160] dl_prague_sinlim_fuerte rep 1 (modo rt, intento 2)
+[2026-09-28 09:19:49]    NO valida (pacing_invalido tarde=6.76% reanclajes=0)
+[2026-09-28 09:20:13] [33/160] dl_prague_sinlim_fuerte rep 1 (modo rt, intento 3)
+[2026-09-28 09:21:50]    NO valida (pacing_invalido tarde=72.70% reanclajes=45)
+[2026-09-28 09:22:17] [34/160] dl_prague_5_upf_medio rep 4 (modo rt, intento 1)
+[2026-09-28 09:23:45]    NO valida (pacing_invalido tarde=28.00% reanclajes=35)
+[2026-09-28 09:24:08] [34/160] dl_prague_5_upf_medio rep 4 (modo rt, intento 2)
+[2026-09-28 09:25:35]    valida
+[2026-09-28 09:26:02] [35/160] dl_cubic_sinlim_sinruido rep 1 (modo rt, intento 1)
+[2026-09-28 09:27:29]    valida
+[2026-09-28 09:27:56] [36/160] dl_prague_sinlim_medio rep 10 (modo rt, intento 1)
+[2026-09-28 09:29:27]    valida
+[2026-09-28 09:29:54] [37/160] dl_cubic_sinlim_fuerte rep 6 (modo rt, intento 1)
+[2026-09-28 09:31:24]    valida
+[2026-09-28 09:31:51] [38/160] dl_cubic_5_upf_fuerte rep 3 (modo rt, intento 1)
+[2026-09-28 09:34:18]    valida
+[2026-09-28 09:34:42] Reiniciando la red 5G con RFSIM_REALTIME=1 ...
+[2026-09-28 09:35:46] Red operativa (UE 12.1.1.130).
+[2026-09-28 09:35:49] [39/160] dl_prague_5_upf_leve rep 8 (modo rt, intento 1)
+[2026-09-28 09:37:16]    valida
+[2026-09-28 09:37:43] [40/160] dl_cubic_5_upf_fuerte rep 9 (modo rt, intento 1)
+[2026-09-28 09:39:20]    valida
+[2026-09-28 09:39:47] [41/160] dl_cubic_5_upf_fuerte rep 5 (modo rt, intento 1)
+[2026-09-28 09:41:20]    valida
+[2026-09-28 09:41:47] [42/160] dl_cubic_5_upf_leve rep 4 (modo rt, intento 1)
+[2026-09-28 09:43:14]    valida
+[2026-09-28 09:43:41] [43/160] dl_prague_5_upf_sinruido rep 9 (modo rt, intento 1)
+[2026-09-28 09:45:08]    valida
+[2026-09-28 09:45:35] [44/160] dl_prague_sinlim_leve rep 3 (modo rt, intento 1)
+[2026-09-28 09:47:02]    valida
+[2026-09-28 09:47:29] [45/160] dl_prague_sinlim_fuerte rep 7 (modo rt, intento 1)
+[2026-09-28 09:48:59]    valida
+[2026-09-28 09:49:26] [46/160] dl_prague_sinlim_fuerte rep 5 (modo rt, intento 1)
+[2026-09-28 09:51:04]    valida
+[2026-09-28 09:51:31] [47/160] dl_cubic_sinlim_sinruido rep 9 (modo rt, intento 1)
+[2026-09-28 09:52:59]    valida
+[2026-09-28 09:53:26] [48/160] dl_cubic_5_upf_medio rep 8 (modo rt, intento 1)
+[2026-09-28 09:54:53]    valida
+[2026-09-28 09:55:20] [49/160] dl_prague_sinlim_leve rep 7 (modo rt, intento 1)
+[2026-09-28 09:56:48]    valida
+[2026-09-28 09:57:15] [50/160] dl_cubic_5_upf_sinruido rep 8 (modo rt, intento 1)
+[2026-09-28 09:58:42]    valida
+[2026-09-28 09:59:09] [51/160] dl_cubic_5_upf_fuerte rep 10 (modo rt, intento 1)
+[2026-09-28 10:00:46]    valida
+[2026-09-28 10:01:13] [52/160] dl_prague_sinlim_sinruido rep 8 (modo rt, intento 1)
+[2026-09-28 10:02:40]    valida
+[2026-09-28 10:03:07] [53/160] dl_prague_sinlim_medio rep 3 (modo rt, intento 1)
+[2026-09-28 10:04:39]    valida
+[2026-09-28 10:05:06] [54/160] dl_prague_sinlim_fuerte rep 9 (modo rt, intento 1)
+[2026-09-28 10:06:44]    valida
+[2026-09-28 10:07:11] [55/160] dl_cubic_5_upf_leve rep 3 (modo rt, intento 1)
+[2026-09-28 10:09:37]    valida
+[2026-09-28 10:10:02] Reiniciando la red 5G con RFSIM_REALTIME=1 ...
+[2026-09-28 10:11:12] Red operativa (UE 12.1.1.130).
+[2026-09-28 10:11:15] [56/160] dl_prague_5_upf_leve rep 6 (modo rt, intento 1)
+[2026-09-28 10:12:42]    valida
+[2026-09-28 10:13:09] [57/160] dl_cubic_5_upf_sinruido rep 5 (modo rt, intento 1)
+[2026-09-28 10:14:36]    valida
+[2026-09-28 10:15:03] [58/160] dl_cubic_5_upf_leve rep 6 (modo rt, intento 1)
+[2026-09-28 10:16:31]    valida
+[2026-09-28 10:16:58] [59/160] dl_cubic_sinlim_medio rep 4 (modo rt, intento 1)
+[2026-09-28 10:18:29]    valida
+[2026-09-28 10:18:56] [60/160] dl_prague_sinlim_medio rep 2 (modo rt, intento 1)
+[2026-09-28 10:20:25]    valida
+[2026-09-28 10:20:52] [61/160] dl_cubic_sinlim_fuerte rep 10 (modo rt, intento 1)
+[2026-09-28 10:22:30]    valida
+[2026-09-28 10:22:57] [62/160] dl_cubic_sinlim_leve rep 4 (modo rt, intento 1)
+[2026-09-28 10:24:24]    valida
+[2026-09-28 10:24:51] [63/160] dl_prague_5_upf_medio rep 10 (modo rt, intento 1)
+[2026-09-28 10:26:19]    valida
+[2026-09-28 10:26:46] [64/160] dl_prague_5_upf_sinruido rep 2 (modo rt, intento 1)
+[2026-09-28 10:28:13]    valida
+[2026-09-28 10:28:40] [65/160] dl_prague_sinlim_medio rep 6 (modo rt, intento 1)
+[2026-09-28 10:30:11]    valida
+[2026-09-28 10:30:38] [66/160] dl_cubic_sinlim_sinruido rep 5 (modo rt, intento 1)
+[2026-09-28 10:32:05]    valida
+[2026-09-28 10:32:32] [67/160] dl_prague_5_upf_fuerte rep 8 (modo rt, intento 1)
+[2026-09-28 10:34:09]    valida
+[2026-09-28 10:34:36] [68/160] dl_prague_5_upf_leve rep 2 (modo rt, intento 1)
+[2026-09-28 10:36:04]    valida
+[2026-09-28 10:36:31] [69/160] dl_prague_sinlim_leve rep 6 (modo rt, intento 1)
+[2026-09-28 10:37:58]    valida
+[2026-09-28 10:38:25] [70/160] dl_cubic_5_upf_leve rep 10 (modo rt, intento 1)
+[2026-09-28 10:39:52]    valida
+[2026-09-28 10:40:19] [71/160] dl_cubic_sinlim_medio rep 8 (modo rt, intento 1)
+[2026-09-28 10:41:50]    valida
+[2026-09-28 10:42:17] [72/160] dl_prague_5_upf_fuerte rep 1 (modo rt, intento 1)
+[2026-09-28 10:43:52]    valida
+[2026-09-28 10:44:19] [73/160] dl_prague_5_upf_sinruido rep 4 (modo rt, intento 1)
+[2026-09-28 10:45:46]    valida
+[2026-09-28 10:46:13] [74/160] dl_prague_5_upf_fuerte rep 3 (modo rt, intento 1)
+[2026-09-28 10:47:53]    valida
+[2026-09-28 10:48:20] [75/160] dl_prague_sinlim_fuerte rep 4 (modo rt, intento 1)
+[2026-09-28 10:49:50]    valida
+[2026-09-28 10:50:17] [76/160] dl_cubic_sinlim_sinruido rep 4 (modo rt, intento 1)
+[2026-09-28 10:51:44]    valida
+[2026-09-28 10:52:11] [77/160] dl_prague_5_upf_fuerte rep 7 (modo rt, intento 1)
+[2026-09-28 10:53:48]    valida
+[2026-09-28 10:54:15] [78/160] dl_prague_5_upf_leve rep 1 (modo rt, intento 1)
+[2026-09-28 10:55:42]    valida
+[2026-09-28 10:56:09] [79/160] dl_cubic_5_upf_sinruido rep 4 (modo rt, intento 1)
+[2026-09-28 10:57:36]    valida
+[2026-09-28 10:58:03] [80/160] dl_cubic_sinlim_fuerte rep 7 (modo rt, intento 1)
+[2026-09-28 10:59:36]    valida
+[2026-09-28 11:00:03] [81/160] dl_cubic_sinlim_medio rep 1 (modo rt, intento 1)
+[2026-09-28 11:01:34]    valida
+[2026-09-28 11:02:01] [82/160] dl_cubic_5_upf_sinruido rep 2 (modo rt, intento 1)
+[2026-09-28 11:03:29]    valida
+[2026-09-28 11:03:56] [83/160] dl_prague_5_upf_medio rep 8 (modo rt, intento 1)
+[2026-09-28 11:05:23]    valida
+[2026-09-28 11:05:50] [84/160] dl_cubic_5_upf_fuerte rep 1 (modo rt, intento 1)
+[2026-09-28 11:07:25]    valida
+[2026-09-28 11:07:52] [85/160] dl_prague_5_upf_medio rep 7 (modo rt, intento 1)
+[2026-09-28 11:09:20]    valida
+[2026-09-28 11:09:47] [86/160] dl_prague_5_upf_leve rep 3 (modo rt, intento 1)
+[2026-09-28 11:11:14]    valida
+[2026-09-28 11:11:41] [87/160] dl_prague_sinlim_leve rep 1 (modo rt, intento 1)
+[2026-09-28 11:13:10]    valida
+[2026-09-28 11:13:37] [88/160] dl_cubic_sinlim_leve rep 8 (modo rt, intento 1)
+[2026-09-28 11:15:05]    valida
+[2026-09-28 11:15:32] [89/160] dl_cubic_5_upf_medio rep 2 (modo rt, intento 1)
+[2026-09-28 11:16:59]    valida
+[2026-09-28 11:17:26] [90/160] dl_cubic_5_upf_leve rep 2 (modo rt, intento 1)
+[2026-09-28 11:18:54]    valida
+[2026-09-28 11:19:21] [91/160] dl_prague_5_upf_fuerte rep 2 (modo rt, intento 1)
+[2026-09-28 11:20:59]    valida
+[2026-09-28 11:21:26] [92/160] dl_prague_5_upf_sinruido rep 5 (modo rt, intento 1)
+[2026-09-28 11:22:53]    valida
+[2026-09-28 11:23:20] [93/160] dl_cubic_sinlim_sinruido rep 7 (modo rt, intento 1)
+[2026-09-28 11:24:48]    valida
+[2026-09-28 11:25:15] [94/160] dl_cubic_5_upf_medio rep 1 (modo rt, intento 1)
+[2026-09-28 11:26:42]    valida
+[2026-09-28 11:27:09] [95/160] dl_prague_sinlim_leve rep 2 (modo rt, intento 1)
+[2026-09-28 11:28:37]    valida
+[2026-09-28 11:29:04] [96/160] dl_prague_5_upf_fuerte rep 4 (modo rt, intento 1)
+[2026-09-28 11:30:42]    valida
+[2026-09-28 11:31:09] [97/160] dl_cubic_5_upf_fuerte rep 6 (modo rt, intento 1)
+[2026-09-28 11:32:46]    valida
+[2026-09-28 11:33:13] [98/160] dl_cubic_5_upf_leve rep 7 (modo rt, intento 1)
+[2026-09-28 11:34:41]    valida
+[2026-09-28 11:35:08] [99/160] dl_cubic_5_upf_leve rep 9 (modo rt, intento 1)
+[2026-09-28 11:36:35]    valida
+[2026-09-28 11:37:02] [100/160] dl_prague_sinlim_fuerte rep 10 (modo rt, intento 1)
+[2026-09-28 11:38:33]    valida
+[2026-09-28 11:39:00] [101/160] dl_prague_sinlim_sinruido rep 6 (modo rt, intento 1)
+[2026-09-28 11:40:28]    valida
+[2026-09-28 11:40:55] [102/160] dl_prague_sinlim_leve rep 4 (modo rt, intento 1)
+[2026-09-28 11:42:23]    valida
+[2026-09-28 11:42:50] [103/160] dl_cubic_5_upf_medio rep 5 (modo rt, intento 1)
+[2026-09-28 11:44:17]    valida
+[2026-09-28 11:44:44] [104/160] dl_prague_5_upf_fuerte rep 5 (modo rt, intento 1)
+[2026-09-28 11:46:15]    valida
+[2026-09-28 11:46:42] [105/160] dl_cubic_sinlim_sinruido rep 2 (modo rt, intento 1)
+[2026-09-28 11:48:09]    valida
+[2026-09-28 11:48:36] [106/160] dl_cubic_sinlim_fuerte rep 9 (modo rt, intento 1)
+[2026-09-28 11:50:08]    valida
+[2026-09-28 11:50:35] [107/160] dl_prague_5_upf_medio rep 3 (modo rt, intento 1)
+[2026-09-28 11:52:02]    valida
+[2026-09-28 11:52:29] [108/160] dl_cubic_sinlim_sinruido rep 6 (modo rt, intento 1)
+[2026-09-28 11:53:57]    valida
+[2026-09-28 11:54:24] [109/160] dl_cubic_5_upf_sinruido rep 6 (modo rt, intento 1)
+[2026-09-28 11:55:51]    valida
+[2026-09-28 11:56:18] [110/160] dl_cubic_sinlim_fuerte rep 3 (modo rt, intento 1)
+[2026-09-28 11:57:56]    valida
+[2026-09-28 11:58:23] [111/160] dl_cubic_sinlim_sinruido rep 3 (modo rt, intento 1)
+[2026-09-28 11:59:51]    valida
+[2026-09-28 12:00:18] [112/160] dl_prague_sinlim_sinruido rep 1 (modo rt, intento 1)
+[2026-09-28 12:01:45]    valida
+[2026-09-28 12:02:12] [113/160] dl_prague_5_upf_leve rep 4 (modo rt, intento 1)
+[2026-09-28 12:03:40]    valida
+[2026-09-28 12:04:07] [114/160] dl_cubic_5_upf_sinruido rep 3 (modo rt, intento 1)
+[2026-09-28 12:05:34]    valida
+[2026-09-28 12:06:01] [115/160] dl_prague_sinlim_sinruido rep 3 (modo rt, intento 1)
+[2026-09-28 12:07:29]    valida
+[2026-09-28 12:07:56] [116/160] dl_cubic_5_upf_fuerte rep 2 (modo rt, intento 1)
+[2026-09-28 12:09:35]    valida
+[2026-09-28 12:10:02] [117/160] dl_prague_sinlim_leve rep 8 (modo rt, intento 1)
+[2026-09-28 12:11:29]    valida
+[2026-09-28 12:11:56] [118/160] dl_cubic_sinlim_fuerte rep 1 (modo rt, intento 1)
+[2026-09-28 12:13:30]    valida
+[2026-09-28 12:13:57] [119/160] dl_cubic_sinlim_medio rep 6 (modo rt, intento 1)
+[2026-09-28 12:15:29]    valida
+[2026-09-28 12:15:56] [120/160] dl_cubic_sinlim_leve rep 9 (modo rt, intento 1)
+[2026-09-28 12:17:23]    valida
+[2026-09-28 12:17:50] [121/160] dl_cubic_5_upf_leve rep 8 (modo rt, intento 1)
+[2026-09-28 12:19:17]    valida
+[2026-09-28 12:19:44] [122/160] dl_prague_sinlim_fuerte rep 2 (modo rt, intento 1)
+[2026-09-28 12:21:18]    valida
+[2026-09-28 12:21:45] [123/160] dl_cubic_sinlim_medio rep 5 (modo rt, intento 1)
+[2026-09-28 12:23:17]    valida
+[2026-09-28 12:23:43] [124/160] dl_prague_5_upf_leve rep 9 (modo rt, intento 1)
+[2026-09-28 12:25:11]    valida
+[2026-09-28 12:25:38] [125/160] dl_prague_sinlim_sinruido rep 7 (modo rt, intento 1)
+[2026-09-28 12:27:05]    valida
+[2026-09-28 12:27:32] [126/160] dl_prague_5_upf_leve rep 10 (modo rt, intento 1)
+[2026-09-28 12:29:00]    valida
+[2026-09-28 12:29:27] [127/160] dl_prague_5_upf_medio rep 5 (modo rt, intento 1)
+[2026-09-28 12:30:54]    valida
+[2026-09-28 12:31:21] [128/160] dl_cubic_5_upf_medio rep 10 (modo rt, intento 1)
+[2026-09-28 12:32:49]    valida
+[2026-09-28 12:33:15] [129/160] dl_cubic_sinlim_fuerte rep 5 (modo rt, intento 1)
+[2026-09-28 12:34:54]    valida
+[2026-09-28 12:35:21] [130/160] dl_cubic_sinlim_leve rep 3 (modo rt, intento 1)
+[2026-09-28 12:36:49]    valida
+[2026-09-28 12:37:16] [131/160] dl_cubic_5_upf_medio rep 7 (modo rt, intento 1)
+[2026-09-28 12:38:43]    valida
+[2026-09-28 12:39:10] [132/160] dl_cubic_sinlim_medio rep 9 (modo rt, intento 1)
+[2026-09-28 12:40:42]    valida
+[2026-09-28 12:41:09] [133/160] dl_prague_sinlim_leve rep 9 (modo rt, intento 1)
+[2026-09-28 12:42:37]    valida
+[2026-09-28 12:43:04] [134/160] dl_cubic_5_upf_medio rep 6 (modo rt, intento 1)
+[2026-09-28 12:44:32]    valida
+[2026-09-28 12:44:59] [135/160] dl_cubic_sinlim_fuerte rep 2 (modo rt, intento 1)
+[2026-09-28 12:46:38]    valida
+[2026-09-28 12:47:05] [136/160] dl_prague_5_upf_sinruido rep 3 (modo rt, intento 1)
+[2026-09-28 12:48:32]    valida
+[2026-09-28 12:48:59] [137/160] dl_prague_5_upf_sinruido rep 7 (modo rt, intento 1)
+[2026-09-28 12:50:27]    valida
+[2026-09-28 12:50:53] [138/160] dl_prague_5_upf_sinruido rep 6 (modo rt, intento 1)
+[2026-09-28 12:52:21]    valida
+[2026-09-28 12:52:48] [139/160] dl_prague_sinlim_fuerte rep 8 (modo rt, intento 1)
+[2026-09-28 12:54:22]    valida
+[2026-09-28 12:54:49] [140/160] dl_prague_sinlim_sinruido rep 2 (modo rt, intento 1)
+[2026-09-28 12:56:17]    valida
+[2026-09-28 12:56:44] [141/160] dl_prague_5_upf_leve rep 7 (modo rt, intento 1)
+[2026-09-28 12:58:11]    valida
+[2026-09-28 12:58:38] [142/160] dl_cubic_5_upf_medio rep 9 (modo rt, intento 1)
+[2026-09-28 13:00:06]    valida
+[2026-09-28 13:00:33] [143/160] dl_prague_5_upf_fuerte rep 9 (modo rt, intento 1)
+[2026-09-28 13:02:10]    valida
+[2026-09-28 13:02:37] [144/160] dl_cubic_sinlim_leve rep 5 (modo rt, intento 1)
+[2026-09-28 13:04:06]    valida
+[2026-09-28 13:04:33] [145/160] dl_prague_5_upf_sinruido rep 1 (modo rt, intento 1)
+[2026-09-28 13:06:01]    valida
+[2026-09-28 13:06:28] [146/160] dl_cubic_sinlim_leve rep 1 (modo rt, intento 1)
+[2026-09-28 13:07:56]    valida
+[2026-09-28 13:08:23] [147/160] dl_cubic_sinlim_sinruido rep 10 (modo rt, intento 1)
+[2026-09-28 13:09:51]    valida
+[2026-09-28 13:10:18] [148/160] dl_prague_5_upf_sinruido rep 8 (modo rt, intento 1)
+[2026-09-28 13:11:45]    valida
+[2026-09-28 13:12:12] [149/160] dl_prague_sinlim_medio rep 5 (modo rt, intento 1)
+[2026-09-28 13:13:44]    valida
+[2026-09-28 13:14:11] [150/160] dl_prague_5_upf_leve rep 5 (modo rt, intento 1)
+[2026-09-28 13:15:38]    valida
+[2026-09-28 13:16:05] [151/160] dl_cubic_5_upf_medio rep 4 (modo rt, intento 1)
+[2026-09-28 13:17:33]    valida
+[2026-09-28 13:18:00] [152/160] dl_cubic_sinlim_sinruido rep 8 (modo rt, intento 1)
+[2026-09-28 13:19:28]    valida
+[2026-09-28 13:19:55] [153/160] dl_prague_sinlim_medio rep 1 (modo rt, intento 1)
+[2026-09-28 13:21:27]    valida
+[2026-09-28 13:21:54] [154/160] dl_cubic_sinlim_leve rep 6 (modo rt, intento 1)
+[2026-09-28 13:23:22]    valida
+[2026-09-28 13:23:49] [155/160] dl_prague_sinlim_medio rep 7 (modo rt, intento 1)
+[2026-09-28 13:25:22]    valida
+[2026-09-28 13:25:49] [156/160] dl_cubic_5_upf_leve rep 1 (modo rt, intento 1)
+[2026-09-28 13:27:17]    valida
+[2026-09-28 13:27:44] [157/160] dl_prague_5_upf_fuerte rep 6 (modo rt, intento 1)
+[2026-09-28 13:29:23]    valida
+[2026-09-28 13:29:50] [158/160] dl_cubic_5_upf_sinruido rep 7 (modo rt, intento 1)
+[2026-09-28 13:31:17]    valida
+[2026-09-28 13:31:44] [159/160] dl_prague_sinlim_fuerte rep 6 (modo rt, intento 1)
+[2026-09-28 13:33:14]    valida
+[2026-09-28 13:33:41] [160/160] dl_cubic_5_upf_leve rep 5 (modo rt, intento 1)
+[2026-09-28 13:35:09]    valida
+[2026-09-28 13:35:29] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase4_ruido_dl ====

@@ -1,0 +1,13 @@
+caso,modo,dir,cca,punto,rate,qdisc,ruido,umbral
+c10_cubic_r50,rt,downlink,cubic,ninguno,0,ninguno,-50,0
+c10_prague_r50_u0,rt,downlink,prague,ninguno,0,ninguno,-50,0
+c10_prague_r50_u10,rt,downlink,prague,ninguno,0,ninguno,-50,10000
+c10_prague_r50_u20,rt,downlink,prague,ninguno,0,ninguno,-50,20000
+c10_cubic_r4,rt,downlink,cubic,ninguno,0,ninguno,-4,0
+c10_prague_r4_u10,rt,downlink,prague,ninguno,0,ninguno,-4,10000
+c10_prague_r4_u20,rt,downlink,prague,ninguno,0,ninguno,-4,20000
+c10_prague_r4_u40,rt,downlink,prague,ninguno,0,ninguno,-4,40000
+c10_cubic_r2,rt,downlink,cubic,ninguno,0,ninguno,-2,0
+c10_prague_r2_u10,rt,downlink,prague,ninguno,0,ninguno,-2,10000
+c10_prague_r2_u20,rt,downlink,prague,ninguno,0,ninguno,-2,20000
+c10_prague_r2_u40,rt,downlink,prague,ninguno,0,ninguno,-2,40000

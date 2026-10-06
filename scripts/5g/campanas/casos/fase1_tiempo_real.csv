@@ -1,0 +1,7 @@
+caso,modo,dir,cca,punto,rate,qdisc
+rt_ul_prague_2,rt,uplink,prague,upf-eth0,2,dualpi2
+rt_ul_cubic_2,rt,uplink,cubic,upf-eth0,2,dualpi2
+libre_ul_prague_2,libre,uplink,prague,upf-eth0,2,dualpi2
+libre_ul_cubic_2,libre,uplink,cubic,upf-eth0,2,dualpi2
+cpu_ul_prague_2,cpu,uplink,prague,upf-eth0,2,dualpi2
+cpu_ul_cubic_2,cpu,uplink,cubic,upf-eth0,2,dualpi2

@@ -1,0 +1,9 @@
+caso,modo,dir,cca,punto,rate,qdisc
+ul_prague_sinlim_sinaqm,rt,uplink,prague,ninguno,0,ninguno
+ul_cubic_sinlim_sinaqm,rt,uplink,cubic,ninguno,0,ninguno
+dl_prague_sinlim_sinaqm,rt,downlink,prague,ninguno,0,ninguno
+dl_cubic_sinlim_sinaqm,rt,downlink,cubic,ninguno,0,ninguno
+ul_prague_sinlim_dualpi2upf,rt,uplink,prague,upf-eth0,0,dualpi2
+ul_cubic_sinlim_dualpi2upf,rt,uplink,cubic,upf-eth0,0,dualpi2
+dl_prague_sinlim_dualpi2upf,rt,downlink,prague,upf-tun0,0,dualpi2
+dl_cubic_sinlim_dualpi2upf,rt,downlink,cubic,upf-tun0,0,dualpi2

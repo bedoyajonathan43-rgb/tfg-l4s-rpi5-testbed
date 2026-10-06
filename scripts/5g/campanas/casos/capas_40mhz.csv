@@ -1,0 +1,4 @@
+caso,modo,dir,cca,punto,rate,qdisc,ruido,umbral
+capas_prague_marcado,rt,downlink,prague,ninguno,0,ninguno,,10000
+capas_cubic,rt,downlink,cubic,ninguno,0,ninguno,,0
+capas_prague_sinmarcado,rt,downlink,prague,ninguno,0,ninguno,,0

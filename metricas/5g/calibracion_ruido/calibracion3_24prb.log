@@ -1,0 +1,11 @@
+nohup: ignoring input
+ruido_dB dir  SNR_dB   MCS     BLER     goodput    tarde%  UE_ok 
+-50      dl   46.7     24.1    0.000    17.00      0.66    si    
+-50      dl   46.8     23.8    0.000    17.00      0.41    si    
+-50      dl   46.8     23.6    0.000    17.00      0.38    si    
+Ruido restaurado a -50 dB. Resultados en /home/alumnos/campanas_oai/calibracion_ruido_dl_20260928_074915/resultado.txt
+ruido_dB dir  SNR_dB   MCS     BLER     goodput    tarde%  UE_ok 
+4.5      ul   23.5     28.0    0.000    7.34       0.47    si    
+5        ul   23.5     28.0    0.000    7.34       1.06    si    
+5.5      ul   23.5     28.0    0.000    7.34       0.67    si    
+Ruido restaurado a -50 dB. Resultados en /home/alumnos/campanas_oai/calibracion_ruido_ul_20260928_075159/resultado.txt

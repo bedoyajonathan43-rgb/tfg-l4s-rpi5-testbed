@@ -1,0 +1,5 @@
+[2026-10-05 15:08:21] Plan creado: 1 pruebas (reps=1, semilla=1, duracion=60s)
+[2026-10-05 15:08:21] ==== Inicio de la campaña capas_40mhz_pre: 1 pruebas ====
+[2026-10-05 15:08:29] [1/1] pre_prague_marcado rep 1 (modo rt, intento 1)
+[2026-10-05 15:09:47]    valida
+[2026-10-05 15:10:08] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/capas_40mhz_pre ====

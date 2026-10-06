@@ -1,0 +1,10 @@
+prueba,caso,modo,rep,intento,inicio,fin,valida,motivo
+p001_capas_cubic_rep03,capas_cubic,rt,3,1,2026-10-05 16:15:44,2026-10-05 16:17:23,si,
+p002_capas_prague_sinmarcado_rep01,capas_prague_sinmarcado,rt,1,1,2026-10-05 16:17:50,2026-10-05 16:19:27,si,
+p003_capas_prague_sinmarcado_rep02,capas_prague_sinmarcado,rt,2,1,2026-10-05 16:19:54,2026-10-05 16:21:32,si,
+p004_capas_cubic_rep02,capas_cubic,rt,2,1,2026-10-05 16:21:59,2026-10-05 16:23:38,si,
+p005_capas_cubic_rep01,capas_cubic,rt,1,1,2026-10-05 16:24:05,2026-10-05 16:25:43,si,
+p006_capas_prague_marcado_rep01,capas_prague_marcado,rt,1,1,2026-10-05 16:26:10,2026-10-05 16:27:43,si,
+p007_capas_prague_sinmarcado_rep03,capas_prague_sinmarcado,rt,3,1,2026-10-05 16:28:10,2026-10-05 16:29:48,si,
+p008_capas_prague_marcado_rep02,capas_prague_marcado,rt,2,1,2026-10-05 16:30:15,2026-10-05 16:31:49,si,
+p009_capas_prague_marcado_rep03,capas_prague_marcado,rt,3,1,2026-10-05 16:32:16,2026-10-05 16:33:49,si,

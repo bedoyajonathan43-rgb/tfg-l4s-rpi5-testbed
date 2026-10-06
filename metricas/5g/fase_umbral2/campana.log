@@ -1,0 +1,53 @@
+[2026-10-03 10:01:56] Plan creado: 25 pruebas (reps=5, semilla=1, duracion=60s)
+[2026-10-03 10:01:56] ==== Inicio de la campaña fase_umbral2: 25 pruebas ====
+[2026-10-03 10:02:04] [1/25] dl_prague_u10ms rep 1 (modo rt, intento 1)
+[2026-10-03 10:03:26]    valida
+[2026-10-03 10:03:53] [2/25] dl_prague_u20ms rep 1 (modo rt, intento 1)
+[2026-10-03 10:05:15]    valida
+[2026-10-03 10:05:42] [3/25] dl_prague_u20ms rep 5 (modo rt, intento 1)
+[2026-10-03 10:07:04]    valida
+[2026-10-03 10:07:31] [4/25] dl_prague_u20ms rep 2 (modo rt, intento 1)
+[2026-10-03 10:08:54]    valida
+[2026-10-03 10:09:21] [5/25] dl_prague_u20ms rep 4 (modo rt, intento 1)
+[2026-10-03 10:10:43]    valida
+[2026-10-03 10:11:10] [6/25] dl_prague_u8ms rep 1 (modo rt, intento 1)
+[2026-10-03 10:12:32]    valida
+[2026-10-03 10:12:59] [7/25] dl_prague_u20ms rep 3 (modo rt, intento 1)
+[2026-10-03 10:14:21]    valida
+[2026-10-03 10:14:48] [8/25] dl_prague_u10ms rep 4 (modo rt, intento 1)
+[2026-10-03 10:16:10]    valida
+[2026-10-03 10:16:37] [9/25] dl_prague_u15ms rep 2 (modo rt, intento 1)
+[2026-10-03 10:17:59]    valida
+[2026-10-03 10:18:26] [10/25] dl_prague_u8ms rep 5 (modo rt, intento 1)
+[2026-10-03 10:19:48]    valida
+[2026-10-03 10:20:15] [11/25] dl_prague_u10ms rep 2 (modo rt, intento 1)
+[2026-10-03 10:21:38]    valida
+[2026-10-03 10:22:05] [12/25] dl_prague_u15ms rep 3 (modo rt, intento 1)
+[2026-10-03 10:23:27]    valida
+[2026-10-03 10:23:54] [13/25] dl_prague_u6ms rep 1 (modo rt, intento 1)
+[2026-10-03 10:25:17]    valida
+[2026-10-03 10:25:44] [14/25] dl_prague_u8ms rep 3 (modo rt, intento 1)
+[2026-10-03 10:27:06]    valida
+[2026-10-03 10:27:33] [15/25] dl_prague_u6ms rep 2 (modo rt, intento 1)
+[2026-10-03 10:28:55]    valida
+[2026-10-03 10:29:22] [16/25] dl_prague_u8ms rep 2 (modo rt, intento 1)
+[2026-10-03 10:30:44]    valida
+[2026-10-03 10:31:11] [17/25] dl_prague_u10ms rep 3 (modo rt, intento 1)
+[2026-10-03 10:32:34]    valida
+[2026-10-03 10:33:01] [18/25] dl_prague_u15ms rep 5 (modo rt, intento 1)
+[2026-10-03 10:34:24]    valida
+[2026-10-03 10:34:51] [19/25] dl_prague_u10ms rep 5 (modo rt, intento 1)
+[2026-10-03 10:36:13]    valida
+[2026-10-03 10:36:40] [20/25] dl_prague_u15ms rep 1 (modo rt, intento 1)
+[2026-10-03 10:38:03]    valida
+[2026-10-03 10:38:29] [21/25] dl_prague_u6ms rep 4 (modo rt, intento 1)
+[2026-10-03 10:39:52]    valida
+[2026-10-03 10:40:19] [22/25] dl_prague_u8ms rep 4 (modo rt, intento 1)
+[2026-10-03 10:41:41]    valida
+[2026-10-03 10:42:08] [23/25] dl_prague_u6ms rep 3 (modo rt, intento 1)
+[2026-10-03 10:43:30]    valida
+[2026-10-03 10:43:57] [24/25] dl_prague_u15ms rep 4 (modo rt, intento 1)
+[2026-10-03 10:45:20]    valida
+[2026-10-03 10:45:47] [25/25] dl_prague_u6ms rep 5 (modo rt, intento 1)
+[2026-10-03 10:47:09]    valida
+[2026-10-03 10:47:29] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase_umbral2 ====

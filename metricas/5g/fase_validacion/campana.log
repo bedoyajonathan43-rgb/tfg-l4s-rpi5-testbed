@@ -1,0 +1,11 @@
+[2026-09-29 12:24:21] Plan creado: 4 pruebas (reps=1, semilla=1, duracion=60s)
+[2026-09-29 12:24:21] ==== Inicio de la campaña fase_validacion: 4 pruebas ====
+[2026-09-29 12:24:28] [1/4] ul_cubic_5_upf rep 1 (modo rt, intento 1)
+[2026-09-29 12:25:43]    valida
+[2026-09-29 12:26:10] [2/4] dl_prague_5_upf rep 1 (modo rt, intento 1)
+[2026-09-29 12:27:23]    valida
+[2026-09-29 12:27:50] [3/4] ul_prague_5_upf rep 1 (modo rt, intento 1)
+[2026-09-29 12:29:03]    valida
+[2026-09-29 12:29:30] [4/4] dl_cubic_5_upf rep 1 (modo rt, intento 1)
+[2026-09-29 12:30:44]    valida
+[2026-09-29 12:31:04] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase_validacion ====

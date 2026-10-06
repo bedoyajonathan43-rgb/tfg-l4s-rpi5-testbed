@@ -1,0 +1,5 @@
+caso,modo,dir,cca,punto,rate,qdisc
+dl_prague_5_upf,rt,downlink,prague,upf-tun0,5,dualpi2
+dl_cubic_5_upf,rt,downlink,cubic,upf-tun0,5,dualpi2
+ul_prague_5_upf,rt,uplink,prague,upf-eth0,5,dualpi2
+ul_cubic_5_upf,rt,uplink,cubic,upf-eth0,5,dualpi2

@@ -1,0 +1,5 @@
+prueba,caso,modo,rep,intento,inicio,fin,valida,motivo
+p001_ul_cubic_5_upf_rep01,ul_cubic_5_upf,rt,1,1,2026-09-29 12:24:28,2026-09-29 12:25:43,si,
+p002_dl_prague_5_upf_rep01,dl_prague_5_upf,rt,1,1,2026-09-29 12:26:10,2026-09-29 12:27:23,si,
+p003_ul_prague_5_upf_rep01,ul_prague_5_upf,rt,1,1,2026-09-29 12:27:50,2026-09-29 12:29:03,si,
+p004_dl_cubic_5_upf_rep01,dl_cubic_5_upf,rt,1,1,2026-09-29 12:29:30,2026-09-29 12:30:44,si,

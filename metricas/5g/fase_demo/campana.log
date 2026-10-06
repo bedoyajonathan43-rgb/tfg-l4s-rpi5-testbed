@@ -1,0 +1,45 @@
+[2026-09-29 14:51:29] Plan creado: 21 pruebas (reps=3, semilla=1, duracion=60s)
+[2026-09-29 14:51:29] ==== Inicio de la campaña fase_demo: 21 pruebas ====
+[2026-09-29 14:51:36] [1/21] dl_cubic_20_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-29 14:52:51]    valida
+[2026-09-29 14:53:18] [2/21] dl_cubic_sinlim rep 3 (modo rt, intento 1)
+[2026-09-29 14:54:31]    valida
+[2026-09-29 14:54:58] [3/21] dl_cubic_20_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-29 14:56:13]    valida
+[2026-09-29 14:56:40] [4/21] ul_cubic_20_upf rep 3 (modo rt, intento 1)
+[2026-09-29 14:57:53]    valida
+[2026-09-29 14:58:20] [5/21] dl_cubic_20_upf rep 3 (modo rt, intento 1)
+[2026-09-29 14:59:34]    valida
+[2026-09-29 15:00:01] [6/21] ul_cubic_20_upf rep 1 (modo rt, intento 1)
+[2026-09-29 15:01:14]    valida
+[2026-09-29 15:01:41] [7/21] dl_prague_20_upf rep 1 (modo rt, intento 1)
+[2026-09-29 15:02:55]    valida
+[2026-09-29 15:03:22] [8/21] dl_prague_sinlim rep 3 (modo rt, intento 1)
+[2026-09-29 15:04:36]    valida
+[2026-09-29 15:05:03] [9/21] dl_prague_20_upf rep 2 (modo rt, intento 1)
+[2026-09-29 15:06:16]    valida
+[2026-09-29 15:06:43] [10/21] dl_cubic_sinlim rep 2 (modo rt, intento 1)
+[2026-09-29 15:07:56]    valida
+[2026-09-29 15:08:23] [11/21] ul_prague_20_upf rep 1 (modo rt, intento 1)
+[2026-09-29 15:09:37]    valida
+[2026-09-29 15:10:04] [12/21] ul_cubic_20_upf rep 2 (modo rt, intento 1)
+[2026-09-29 15:11:17]    valida
+[2026-09-29 15:11:44] [13/21] dl_prague_sinlim rep 2 (modo rt, intento 1)
+[2026-09-29 15:12:59]    valida
+[2026-09-29 15:13:26] [14/21] ul_prague_20_upf rep 2 (modo rt, intento 1)
+[2026-09-29 15:14:39]    valida
+[2026-09-29 15:15:07] [15/21] dl_prague_sinlim rep 1 (modo rt, intento 1)
+[2026-09-29 15:16:20]    valida
+[2026-09-29 15:16:47] [16/21] dl_cubic_sinlim rep 1 (modo rt, intento 1)
+[2026-09-29 15:18:00]    valida
+[2026-09-29 15:18:27] [17/21] dl_cubic_20_upf rep 1 (modo rt, intento 1)
+[2026-09-29 15:19:41]    valida
+[2026-09-29 15:20:08] [18/21] ul_prague_20_upf rep 3 (modo rt, intento 1)
+[2026-09-29 15:21:21]    valida
+[2026-09-29 15:21:48] [19/21] dl_prague_20_upf rep 3 (modo rt, intento 1)
+[2026-09-29 15:23:02]    valida
+[2026-09-29 15:23:29] [20/21] dl_cubic_20_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-29 15:24:43]    valida
+[2026-09-29 15:25:10] [21/21] dl_cubic_20_upf rep 2 (modo rt, intento 1)
+[2026-09-29 15:26:24]    valida
+[2026-09-29 15:26:44] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase_demo ====

@@ -1,0 +1,127 @@
+[2026-09-25 16:11:14] Plan creado: 60 pruebas (reps=10, semilla=1, duracion=60s)
+[2026-09-25 16:11:14] ==== Inicio de la campaña fase1_tiempo_real: 60 pruebas ====
+[2026-09-25 16:11:21] [1/60] libre_ul_prague_2 rep 3 (modo libre, intento 1)
+[2026-09-25 16:12:32]    valida
+[2026-09-25 16:12:59] [2/60] libre_ul_prague_2 rep 6 (modo libre, intento 1)
+[2026-09-25 16:14:10]    valida
+[2026-09-25 16:14:37] [3/60] libre_ul_cubic_2 rep 7 (modo libre, intento 1)
+[2026-09-25 16:15:48]    valida
+[2026-09-25 16:16:15] [4/60] libre_ul_prague_2 rep 10 (modo libre, intento 1)
+[2026-09-25 16:17:26]    valida
+[2026-09-25 16:17:53] [5/60] libre_ul_cubic_2 rep 10 (modo libre, intento 1)
+[2026-09-25 16:19:04]    valida
+[2026-09-25 16:19:31] [6/60] libre_ul_prague_2 rep 5 (modo libre, intento 1)
+[2026-09-25 16:20:41]    valida
+[2026-09-25 16:21:08] [7/60] libre_ul_cubic_2 rep 2 (modo libre, intento 1)
+[2026-09-25 16:22:18]    valida
+[2026-09-25 16:22:45] [8/60] libre_ul_cubic_2 rep 4 (modo libre, intento 1)
+[2026-09-25 16:23:56]    valida
+[2026-09-25 16:24:23] [9/60] libre_ul_prague_2 rep 1 (modo libre, intento 1)
+[2026-09-25 16:25:34]    valida
+[2026-09-25 16:26:02] [10/60] libre_ul_prague_2 rep 8 (modo libre, intento 1)
+[2026-09-25 16:27:12]    valida
+[2026-09-25 16:27:39] [11/60] libre_ul_prague_2 rep 2 (modo libre, intento 1)
+[2026-09-25 16:28:50]    valida
+[2026-09-25 16:29:17] [12/60] libre_ul_cubic_2 rep 9 (modo libre, intento 1)
+[2026-09-25 16:30:28]    valida
+[2026-09-25 16:30:55] [13/60] libre_ul_cubic_2 rep 3 (modo libre, intento 1)
+[2026-09-25 16:32:06]    valida
+[2026-09-25 16:32:33] [14/60] libre_ul_prague_2 rep 7 (modo libre, intento 1)
+[2026-09-25 16:33:43]    valida
+[2026-09-25 16:34:10] [15/60] libre_ul_cubic_2 rep 1 (modo libre, intento 1)
+[2026-09-25 16:35:21]    valida
+[2026-09-25 16:35:48] [16/60] libre_ul_cubic_2 rep 8 (modo libre, intento 1)
+[2026-09-25 16:36:58]    valida
+[2026-09-25 16:37:25] [17/60] libre_ul_cubic_2 rep 5 (modo libre, intento 1)
+[2026-09-25 16:38:36]    valida
+[2026-09-25 16:39:03] [18/60] libre_ul_cubic_2 rep 6 (modo libre, intento 1)
+[2026-09-25 16:40:14]    valida
+[2026-09-25 16:40:41] [19/60] libre_ul_prague_2 rep 4 (modo libre, intento 1)
+[2026-09-25 16:41:52]    valida
+[2026-09-25 16:42:19] [20/60] libre_ul_prague_2 rep 9 (modo libre, intento 1)
+[2026-09-25 16:43:30]    valida
+[2026-09-25 16:43:50] Reiniciando la red 5G con RFSIM_REALTIME=1 ...
+[2026-09-25 16:45:01] Red operativa (UE 12.1.1.130).
+[2026-09-25 16:45:05] [21/60] rt_ul_prague_2 rep 6 (modo rt, intento 1)
+[2026-09-25 16:46:15]    valida
+[2026-09-25 16:46:42] [22/60] rt_ul_prague_2 rep 8 (modo rt, intento 1)
+[2026-09-25 16:47:52]    valida
+[2026-09-25 16:48:19] [23/60] rt_ul_prague_2 rep 3 (modo rt, intento 1)
+[2026-09-25 16:49:29]    valida
+[2026-09-25 16:49:56] [24/60] rt_ul_cubic_2 rep 3 (modo rt, intento 1)
+[2026-09-25 16:51:07]    valida
+[2026-09-25 16:51:34] [25/60] rt_ul_prague_2 rep 10 (modo rt, intento 1)
+[2026-09-25 16:52:44]    valida
+[2026-09-25 16:53:11] [26/60] rt_ul_prague_2 rep 2 (modo rt, intento 1)
+[2026-09-25 16:54:21]    valida
+[2026-09-25 16:54:48] [27/60] rt_ul_prague_2 rep 5 (modo rt, intento 1)
+[2026-09-25 16:55:59]    valida
+[2026-09-25 16:56:26] [28/60] rt_ul_cubic_2 rep 2 (modo rt, intento 1)
+[2026-09-25 16:57:37]    valida
+[2026-09-25 16:58:04] [29/60] rt_ul_cubic_2 rep 4 (modo rt, intento 1)
+[2026-09-25 16:59:14]    valida
+[2026-09-25 16:59:41] [30/60] rt_ul_cubic_2 rep 10 (modo rt, intento 1)
+[2026-09-25 17:00:51]    valida
+[2026-09-25 17:01:18] [31/60] rt_ul_prague_2 rep 7 (modo rt, intento 1)
+[2026-09-25 17:02:29]    valida
+[2026-09-25 17:02:56] [32/60] rt_ul_cubic_2 rep 5 (modo rt, intento 1)
+[2026-09-25 17:04:06]    valida
+[2026-09-25 17:04:33] [33/60] rt_ul_prague_2 rep 9 (modo rt, intento 1)
+[2026-09-25 17:05:44]    valida
+[2026-09-25 17:06:11] [34/60] rt_ul_cubic_2 rep 8 (modo rt, intento 1)
+[2026-09-25 17:07:22]    valida
+[2026-09-25 17:07:49] [35/60] rt_ul_cubic_2 rep 6 (modo rt, intento 1)
+[2026-09-25 17:08:59]    valida
+[2026-09-25 17:09:26] [36/60] rt_ul_cubic_2 rep 7 (modo rt, intento 1)
+[2026-09-25 17:10:37]    valida
+[2026-09-25 17:11:04] [37/60] rt_ul_prague_2 rep 1 (modo rt, intento 1)
+[2026-09-25 17:12:14]    valida
+[2026-09-25 17:12:41] [38/60] rt_ul_cubic_2 rep 1 (modo rt, intento 1)
+[2026-09-25 17:13:51]    valida
+[2026-09-25 17:14:18] [39/60] rt_ul_prague_2 rep 4 (modo rt, intento 1)
+[2026-09-25 17:15:29]    valida
+[2026-09-25 17:15:56] [40/60] rt_ul_cubic_2 rep 9 (modo rt, intento 1)
+[2026-09-25 17:17:07]    valida
+[2026-09-25 17:17:27] Reiniciando la red 5G con RFSIM_REALTIME=0 ...
+[2026-09-25 17:18:29] Red operativa (UE 12.1.1.130).
+[2026-09-25 17:18:33] [41/60] cpu_ul_cubic_2 rep 6 (modo cpu, intento 1)
+[2026-09-25 17:19:44]    valida
+[2026-09-25 17:20:13] [42/60] cpu_ul_cubic_2 rep 3 (modo cpu, intento 1)
+[2026-09-25 17:21:27]    valida
+[2026-09-25 17:21:54] [43/60] cpu_ul_cubic_2 rep 8 (modo cpu, intento 1)
+[2026-09-25 17:23:06]    valida
+[2026-09-25 17:23:34] [44/60] cpu_ul_prague_2 rep 4 (modo cpu, intento 1)
+[2026-09-25 17:24:47]    valida
+[2026-09-25 17:25:14] [45/60] cpu_ul_cubic_2 rep 10 (modo cpu, intento 1)
+[2026-09-25 17:26:25]    valida
+[2026-09-25 17:26:54] [46/60] cpu_ul_prague_2 rep 6 (modo cpu, intento 1)
+[2026-09-25 17:28:05]    valida
+[2026-09-25 17:28:33] [47/60] cpu_ul_cubic_2 rep 4 (modo cpu, intento 1)
+[2026-09-25 17:29:45]    valida
+[2026-09-25 17:30:13] [48/60] cpu_ul_prague_2 rep 5 (modo cpu, intento 1)
+[2026-09-25 17:31:26]    valida
+[2026-09-25 17:31:53] [49/60] cpu_ul_prague_2 rep 3 (modo cpu, intento 1)
+[2026-09-25 17:33:05]    valida
+[2026-09-25 17:33:33] [50/60] cpu_ul_prague_2 rep 2 (modo cpu, intento 1)
+[2026-09-25 17:34:45]    valida
+[2026-09-25 17:35:12] [51/60] cpu_ul_cubic_2 rep 1 (modo cpu, intento 1)
+[2026-09-25 17:36:23]    valida
+[2026-09-25 17:36:52] [52/60] cpu_ul_prague_2 rep 9 (modo cpu, intento 1)
+[2026-09-25 17:38:04]    valida
+[2026-09-25 17:38:31] [53/60] cpu_ul_prague_2 rep 7 (modo cpu, intento 1)
+[2026-09-25 17:39:42]    valida
+[2026-09-25 17:40:10] [54/60] cpu_ul_prague_2 rep 1 (modo cpu, intento 1)
+[2026-09-25 17:41:21]    valida
+[2026-09-25 17:41:48] [55/60] cpu_ul_cubic_2 rep 7 (modo cpu, intento 1)
+[2026-09-25 17:42:59]    valida
+[2026-09-25 17:43:26] [56/60] cpu_ul_prague_2 rep 10 (modo cpu, intento 1)
+[2026-09-25 17:44:40]    valida
+[2026-09-25 17:45:08] [57/60] cpu_ul_cubic_2 rep 5 (modo cpu, intento 1)
+[2026-09-25 17:46:22]    valida
+[2026-09-25 17:46:50] [58/60] cpu_ul_cubic_2 rep 9 (modo cpu, intento 1)
+[2026-09-25 17:48:04]    valida
+[2026-09-25 17:48:32] [59/60] cpu_ul_prague_2 rep 8 (modo cpu, intento 1)
+[2026-09-25 17:49:44]    valida
+[2026-09-25 17:50:12] [60/60] cpu_ul_cubic_2 rep 2 (modo cpu, intento 1)
+[2026-09-25 17:51:27]    valida
+[2026-09-25 17:51:47] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase1_tiempo_real ====

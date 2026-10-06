@@ -14,11 +14,11 @@ services:
             TFG_RLC_LOG: ${TFG_RLC_LOG:-/opt/oai-gnb/tfg_rlc.csv}
             TFG_LOG_MS: ${TFG_LOG_MS:-10}
             RFSIM_REALTIME: ${RFSIM_REALTIME:-0}
-            USE_ADDITIONAL_OPTIONS: -E --rfsim --MACRLCs.[0].stats_max_ue 1 --log_config.global_log_options level,nocolor,time ${RUIDO_OPTS_GNB:-}
+            USE_ADDITIONAL_OPTIONS: --rfsim --MACRLCs.[0].stats_max_ue 1 --log_config.global_log_options level,nocolor,time ${RUIDO_OPTS_GNB:-}
             ASAN_OPTIONS: detect_leaks=0
         volumes:
             - ./rfsim-rt/nr-softmodem-tfg:/opt/oai-gnb/bin/nr-softmodem
-            - ./ran-conf/gnb.conf:/opt/oai-gnb/etc/gnb.conf
+            - ./ran-conf/gnb_24prb.conf:/opt/oai-gnb/etc/gnb.conf
             - ./rfsim-rt/librfsimulator.so:/usr/local/lib/librfsimulator.so:ro
         networks:
             public_net:
@@ -40,7 +40,7 @@ services:
             - NET_RAW    # for ping
             - SYS_NICE
         environment:
-            USE_ADDITIONAL_OPTIONS: -E --rfsim -r 106 --numerology 1 -C 3619200000 --rfsimulator.[0].serveraddr 192.168.70.153 --log_config.global_log_options level,nocolor,time ${RUIDO_OPTS_UE:-}
+            USE_ADDITIONAL_OPTIONS: --rfsim -r 24 --ssb 24 --numerology 1 -C 3604800000 --rfsimulator.[0].serveraddr 192.168.70.153 --log_config.global_log_options level,nocolor,time ${RUIDO_OPTS_UE:-}
             ASAN_OPTIONS: detect_leaks=0
         depends_on:
             - oai-gnb-basic

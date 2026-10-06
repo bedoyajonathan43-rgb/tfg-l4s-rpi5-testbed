@@ -1,0 +1,142 @@
+[2026-10-05 16:12:22] 1/4 prueba previa (deja la red en la celda y el modo correctos)
+[2026-10-05 16:13:35] [1/1] pre_prague_marcado rep 1 (modo rt, intento 1)
+[2026-10-05 16:15:09]    valida
+[2026-10-05 16:15:29] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/capas_10mhz_r4_pre ====
+[2026-10-05 16:15:29] 2/4 arranque de las capturas
+cap-ue Up 5 seconds
+cap-upf Up 5 seconds
+cap-ext Up 5 seconds
+[2026-10-05 16:15:36] 3/4 campaña con capturas (9 pruebas, unos 20 minutos)
+9
+La red no se ha reiniciado durante las capturas: correcto
+-rw-r--r-- 1 root root 2626584 Oct  5 16:33 /home/alumnos/capas_10mhz_r4/a.pcap
+-rw-r--r-- 1 root root 8085004 Oct  5 16:33 /home/alumnos/capas_10mhz_r4/b.pcap
+-rw-r--r-- 1 root root 2304024 Oct  5 16:33 /home/alumnos/capas_10mhz_r4/c.pcap
+[2026-10-05 16:34:10] 4/4 analisis
+Ecos ICMP capturados: servidor 23040 | UPF sin encapsular 23040 | UPF en GTP 23040 | UE 23040
+Pings completos en los siete puntos de paso: 7870; descartados por faltar algun punto: 0
+
+capas_cubic | carga | ping ECT(1) | n = 1266
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.016     0.015     0.031
+  UPF (encapsulado GTP)            0.150     0.095     0.270
+  UPF -> UE (gNB + radio)       3559.848  3437.537  5565.406
+  respuesta en la UE               0.022     0.018     0.047
+  UE -> UPF (radio + gNB)         14.917    15.096    23.004
+  UPF (desencapsulado)             0.380     0.141     0.695
+  UPF -> servidor                  0.005     0.003     0.014
+  total (ida y vuelta)          3575.338  3454.706  5589.084
+  cola RLC del gNB (registro)   3588.976   media de 3 pruebas
+  pings ECT(1) que llegan a la UE con CE: 0 de 1266 (0.0 %)
+
+capas_cubic | carga | ping clasico | n = 1267
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.016     0.015     0.029
+  UPF (encapsulado GTP)            0.172     0.098     0.271
+  UPF -> UE (gNB + radio)       3560.143  3442.245  5599.962
+  respuesta en la UE               0.021     0.016     0.042
+  UE -> UPF (radio + gNB)         15.176    15.273    22.914
+  UPF (desencapsulado)             0.377     0.140     0.665
+  UPF -> servidor                  0.005     0.004     0.014
+  total (ida y vuelta)          3575.910  3459.915  5608.624
+  cola RLC del gNB (registro)   3588.976   media de 3 pruebas
+
+capas_cubic | reposo | ping clasico | n = 90
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.014     0.014     0.018
+  UPF (encapsulado GTP)            0.164     0.160     0.251
+  UPF -> UE (gNB + radio)          2.759     2.534     3.780
+  respuesta en la UE               0.042     0.042     0.053
+  UE -> UPF (radio + gNB)          9.339     9.412    13.898
+  UPF (desencapsulado)             0.151     0.148     0.202
+  UPF -> servidor                  0.008     0.006     0.013
+  total (ida y vuelta)            12.476    12.602    16.803
+
+capas_prague_marcado | carga | ping ECT(1) | n = 1263
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.017     0.015     0.031
+  UPF (encapsulado GTP)            0.148     0.104     0.272
+  UPF -> UE (gNB + radio)         12.192    11.787    23.186
+  respuesta en la UE               0.028     0.030     0.043
+  UE -> UPF (radio + gNB)         12.583    12.676    22.141
+  UPF (desencapsulado)             0.217     0.182     0.411
+  UPF -> servidor                  0.005     0.004     0.014
+  total (ida y vuelta)            25.190    25.295    38.716
+  cola RLC del gNB (registro)      7.426   media de 3 pruebas
+  pings ECT(1) que llegan a la UE con CE: 449 de 1263 (35.6 %)
+
+capas_prague_marcado | carga | ping clasico | n = 1263
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.018     0.016     0.033
+  UPF (encapsulado GTP)            0.151     0.099     0.271
+  UPF -> UE (gNB + radio)         12.014    11.462    23.128
+  respuesta en la UE               0.028     0.030     0.043
+  UE -> UPF (radio + gNB)         13.026    13.050    22.099
+  UPF (desencapsulado)             0.214     0.182     0.403
+  UPF -> servidor                  0.005     0.004     0.014
+  total (ida y vuelta)            25.455    25.165    38.577
+  cola RLC del gNB (registro)      7.426   media de 3 pruebas
+
+capas_prague_marcado | reposo | ping clasico | n = 90
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.016     0.017     0.020
+  UPF (encapsulado GTP)            0.173     0.157     0.285
+  UPF -> UE (gNB + radio)          2.988     2.826     3.969
+  respuesta en la UE               0.049     0.049     0.058
+  UE -> UPF (radio + gNB)          9.728    10.223    14.369
+  UPF (desencapsulado)             0.273     0.274     0.399
+  UPF -> servidor                  0.013     0.014     0.016
+  total (ida y vuelta)            13.239    13.530    17.700
+
+capas_prague_sinmarcado | carga | ping ECT(1) | n = 1270
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.016     0.015     0.030
+  UPF (encapsulado GTP)            0.115     0.082     0.253
+  UPF -> UE (gNB + radio)       3422.986  3935.037  4470.794
+  respuesta en la UE               0.022     0.027     0.039
+  UE -> UPF (radio + gNB)         14.591    15.076    22.433
+  UPF (desencapsulado)             0.145     0.109     0.354
+  UPF -> servidor                  0.004     0.004     0.008
+  total (ida y vuelta)          3437.879  3949.226  4488.114
+  cola RLC del gNB (registro)   3527.670   media de 3 pruebas
+  pings ECT(1) que llegan a la UE con CE: 0 de 1270 (0.0 %)
+
+capas_prague_sinmarcado | carga | ping clasico | n = 1271
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.015     0.014     0.027
+  UPF (encapsulado GTP)            0.115     0.081     0.248
+  UPF -> UE (gNB + radio)       3423.762  3929.512  4473.034
+  respuesta en la UE               0.022     0.027     0.039
+  UE -> UPF (radio + gNB)         14.674    14.962    22.417
+  UPF (desencapsulado)             0.145     0.104     0.356
+  UPF -> servidor                  0.004     0.004     0.012
+  total (ida y vuelta)          3438.736  3948.123  4490.003
+  cola RLC del gNB (registro)   3527.670   media de 3 pruebas
+
+capas_prague_sinmarcado | reposo | ping clasico | n = 90
+  tramo                            media   mediana       p95   (ms)
+  servidor -> UPF                  0.015     0.016     0.019
+  UPF (encapsulado GTP)            0.210     0.164     0.281
+  UPF -> UE (gNB + radio)          3.015     2.881     4.151
+  respuesta en la UE               0.048     0.048     0.056
+  UE -> UPF (radio + gNB)          9.357     9.271    14.193
+  UPF (desencapsulado)             0.174     0.165     0.270
+  UPF -> servidor                  0.007     0.006     0.015
+  total (ida y vuelta)            12.826    12.567    17.612
+
+Fichero: /home/alumnos/capas_10mhz_r4/capas.csv
+
+Campaña: /home/alumnos/campanas_oai/capas_10mhz_r4   (pruebas válidas: 9; IC 95 %)
+
+caso                           n   goodput Mbit/s     RTT medio ms       RTT p95 ms             CE   factor    HARQ DL %    HARQ UL %      ping C ms      ping L ms  cola C/L ms
+capas_cubic                    3      4.87 ± 0.16   3617.1 ± 126.6   5354.4 ± 723.6          0 ± 0     1.00  6.02 ± 0.04  0.00 ± 0.00 3608.7 ± 378.1 3607.2 ± 376.8            -
+capas_prague_marcado           3      4.77 ± 0.19       24.2 ± 1.2       31.8 ± 2.0      6334 ± 39     1.00  6.08 ± 0.10  0.00 ± 0.00     25.5 ± 0.1     25.2 ± 2.0            -
+capas_prague_sinmarcado        3      4.78 ± 0.11  3539.4 ± 2688.6  4091.7 ± 1795.0          0 ± 0     1.00  6.05 ± 0.16  0.00 ± 0.00 3501.5 ± 2443.3 3499.3 ± 2446.4            -
+
+caso                          umbral us      cola RLC kB    estancia RLC ms  espera 1.º ms p95   retx RLC %     marcas %    tarde %  retraso max ms
+capas_cubic                           0    2031.8 ± 68.7   3586.39 ± 298.98     5510.7 ± 167.3  0.00 ± 0.00  0.00 ± 0.00 1.29 ± 0.78     12.3 ± 34.4
+capas_prague_marcado              10000       21.4 ± 0.8        7.43 ± 0.20         15.6 ± 0.2  0.00 ± 0.00 25.86 ± 1.02 1.41 ± 0.14       5.1 ± 1.7
+capas_prague_sinmarcado               0  1970.7 ± 1493.4  3530.46 ± 2631.88    4239.7 ± 1173.0  0.00 ± 0.00  0.00 ± 0.00 1.14 ± 0.44       5.3 ± 2.2
+
+Ficheros: /home/alumnos/campanas_oai/capas_10mhz_r4/pruebas.csv y /home/alumnos/campanas_oai/capas_10mhz_r4/casos.csv
+[2026-10-05 16:34:12] FIN

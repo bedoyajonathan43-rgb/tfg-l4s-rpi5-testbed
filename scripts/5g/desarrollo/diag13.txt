@@ -1,0 +1,25 @@
+== CPU de la VM: 32 núcleos; Model name: Intel(R) Xeon(R) Gold 5320 CPU @ 2.20GHz
+== Compilando nr-softmodem SIN parche (mismas opciones que el parcheado)
+[4/5] Linking CXX static library openair2/LAYER2/nr_rlc/libnr_rlc.a
+[5/5] Linking CXX executable nr-softmodem
+######## V0 binario oficial de la imagen
+  binario: sin parche
+  CPU del gNB en reposo: 146.77%
+  goodput Cubic: 79.4 Mbits/sec; 83.3 Mbits/sec; 83.4 Mbits/sec; 
+  tiempo real con carga: 0.18% bloques tarde, 0 reanclajes (10 tramos de 10 s)
+######## V1 recompilado SIN parche
+  binario: sin parche
+  CPU del gNB en reposo: 155.68%
+  goodput Cubic: 79.3 Mbits/sec; 83.4 Mbits/sec; 83.4 Mbits/sec; 
+  tiempo real con carga: 0.38% bloques tarde, 0 reanclajes (10 tramos de 10 s)
+######## V2 parcheado, registro casi apagado
+  binario: parcheado
+  CPU del gNB en reposo: 160.35%
+  goodput Cubic: 79.4 Mbits/sec; 83.7 Mbits/sec; 83.3 Mbits/sec; 
+  tiempo real con carga: 6.16% bloques tarde, 0 reanclajes (10 tramos de 10 s)
+######## V3 parcheado, registro cada 10 ms
+  binario: parcheado
+  CPU del gNB en reposo: 153.02%
+  goodput Cubic: 77.8 Mbits/sec; 81.0 Mbits/sec; 81.2 Mbits/sec; 
+  tiempo real con carga: 73.86% bloques tarde, 18 reanclajes (10 tramos de 10 s)
+######## fin (en marcha: V3, gNB parcheado con registro)

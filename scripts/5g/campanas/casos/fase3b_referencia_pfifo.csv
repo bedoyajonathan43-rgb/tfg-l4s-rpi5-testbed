@@ -1,0 +1,16 @@
+caso,modo,dir,cca,punto,rate,qdisc
+ul_cubic_1_upf_pfifo,rt,uplink,cubic,upf-eth0,1,pfifo
+dl_cubic_1_upf_pfifo,rt,downlink,cubic,upf-tun0,1,pfifo
+ul_cubic_1_ue_pfifo,rt,uplink,cubic,ue-oaitun,1,pfifo
+ul_cubic_2_upf_pfifo,rt,uplink,cubic,upf-eth0,2,pfifo
+dl_cubic_2_upf_pfifo,rt,downlink,cubic,upf-tun0,2,pfifo
+ul_cubic_2_ue_pfifo,rt,uplink,cubic,ue-oaitun,2,pfifo
+ul_cubic_5_upf_pfifo,rt,uplink,cubic,upf-eth0,5,pfifo
+dl_cubic_5_upf_pfifo,rt,downlink,cubic,upf-tun0,5,pfifo
+ul_cubic_5_ue_pfifo,rt,uplink,cubic,ue-oaitun,5,pfifo
+ul_cubic_10_upf_pfifo,rt,uplink,cubic,upf-eth0,10,pfifo
+dl_cubic_10_upf_pfifo,rt,downlink,cubic,upf-tun0,10,pfifo
+ul_cubic_10_ue_pfifo,rt,uplink,cubic,ue-oaitun,10,pfifo
+ul_cubic_20_upf_pfifo,rt,uplink,cubic,upf-eth0,20,pfifo
+dl_cubic_20_upf_pfifo,rt,downlink,cubic,upf-tun0,20,pfifo
+ul_cubic_20_ue_pfifo,rt,uplink,cubic,ue-oaitun,20,pfifo

@@ -1,0 +1,23 @@
+== Compilando el parche v2
+Parche TFG L4S v2 aplicado en /home/alumnos/oai-src/openair2/LAYER2/nr_rlc/nr_rlc_entity_am.h y /home/alumnos/oai-src/openair2/LAYER2/nr_rlc/nr_rlc_entity_am.c
+[4/5] Linking CXX static library openair2/LAYER2/nr_rlc/libnr_rlc.a
+[5/5] Linking CXX executable nr-softmodem
+   OK: binario v2
+######## V1 recompilado SIN parche
+    cubic: 74.7 Mbits/sec  rtt:227.407 
+    cubic: 81.4 Mbits/sec  rtt:233.167 
+    cubic: 80.8 Mbits/sec  rtt:204.126 
+  tiempo real con carga: 74.83% bloques tarde, 29 reanclajes (10 tramos de 10 s)
+######## V4 parche v2, registro 10 ms, umbral 0
+    cubic: 79.3 Mbits/sec  rtt:207.353 
+    cubic: 83.3 Mbits/sec  rtt:229.39 
+    cubic: 83.4 Mbits/sec  rtt:229.867 
+  tiempo real con carga: 15.69% bloques tarde, 0 reanclajes (10 tramos de 10 s)
+1398185.711456 [RLC]    I [TFG] L4S v2: umbral de marcado 0 us (0 = sin marcado); registro RLC /opt/oai-gnb/tfg_rlc.csv cada 10 ms (asíncrono)
+######## V4m parche v2, registro 10 ms, umbral 2 ms (Prague)
+    prague: 9.65 Mbits/sec  rtt:11.187 delivered_ce:3 
+    prague: 37.5 Mbits/sec  rtt:11.923 delivered_ce:2303 
+    prague: 39.2 Mbits/sec  rtt:16.659 delivered_ce:3821 
+  tiempo real con carga: 2.47% bloques tarde, 0 reanclajes (11 tramos de 10 s)
+  líneas de registro: 22977
+######## fin (en marcha: parche v2, umbral 0)

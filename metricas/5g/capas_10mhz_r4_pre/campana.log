@@ -1,0 +1,7 @@
+[2026-10-05 16:12:22] Plan creado: 1 pruebas (reps=1, semilla=1, duracion=60s)
+[2026-10-05 16:12:22] ==== Inicio de la campaña capas_10mhz_r4_pre: 1 pruebas ====
+[2026-10-05 16:12:22] Reiniciando la red 5G con RFSIM_REALTIME=1 ...
+[2026-10-05 16:13:31] Red operativa (UE 12.1.1.130).
+[2026-10-05 16:13:35] [1/1] pre_prague_marcado rep 1 (modo rt, intento 1)
+[2026-10-05 16:15:09]    valida
+[2026-10-05 16:15:29] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/capas_10mhz_r4_pre ====

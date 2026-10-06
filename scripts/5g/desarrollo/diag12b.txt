@@ -1,0 +1,13 @@
+######## gNB parcheado (docker-compose-oai-rfsim-basic.yaml)
+  binario: parcheado
+ rep 1
+  cubic   goodput=78.0 Mbits/sec ping_medio=174.504  ms  rtt:211.494 cwnd:1502 rwnd_limited:40ms(0.2%) 
+  prague  goodput=16.8 Mbits/sec ping_medio=15.222   ms  rtt:16.847 cwnd:35011 
+ rep 2
+  cubic   goodput=81.4 Mbits/sec ping_medio=192.338  ms  rtt:239.467 cwnd:1642 
+  prague  goodput=12.9 Mbits/sec ping_medio=15.002   ms  rtt:10.901 cwnd:26908 
+ rep 3
+  cubic   goodput=81.1 Mbits/sec ping_medio=170.169  ms  rtt:76.759 cwnd:609 rwnd_limited:44ms(0.2%) 
+  prague  goodput=13.6 Mbits/sec ping_medio=14.635   ms  rtt:13.24 cwnd:28412 
+  tiempo real durante las pruebas: 30.55% bloques tarde, 11 reanclajes
+######## fin (queda en marcha el gNB parcheado, umbral 0)

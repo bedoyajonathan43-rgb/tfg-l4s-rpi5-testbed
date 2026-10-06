@@ -1,0 +1,7 @@
+[2026-09-25 15:21:59] Plan creado: 2 pruebas (reps=1, semilla=1, duracion=20s)
+[2026-09-25 15:21:59] ==== Inicio de la campaña humo: 2 pruebas ====
+[2026-09-25 15:22:06] [1/2] humo_dl_cubic rep 1 (modo rt, intento 1)
+[2026-09-25 15:22:38]    valida
+[2026-09-25 15:22:50] [2/2] humo_ul_prague rep 1 (modo rt, intento 1)
+[2026-09-25 15:23:23]    valida
+[2026-09-25 15:23:28] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/humo ====

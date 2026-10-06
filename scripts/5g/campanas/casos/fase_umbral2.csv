@@ -1,0 +1,6 @@
+caso,modo,dir,cca,punto,rate,qdisc,ruido,umbral
+dl_prague_u6ms,rt,downlink,prague,ninguno,0,ninguno,,6000
+dl_prague_u8ms,rt,downlink,prague,ninguno,0,ninguno,,8000
+dl_prague_u10ms,rt,downlink,prague,ninguno,0,ninguno,,10000
+dl_prague_u15ms,rt,downlink,prague,ninguno,0,ninguno,,15000
+dl_prague_u20ms,rt,downlink,prague,ninguno,0,ninguno,,20000

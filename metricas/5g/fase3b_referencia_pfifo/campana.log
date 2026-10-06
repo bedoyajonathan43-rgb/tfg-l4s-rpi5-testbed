@@ -1,0 +1,305 @@
+[2026-09-27 08:13:53] Plan creado: 150 pruebas (reps=10, semilla=1, duracion=60s)
+[2026-09-27 08:13:53] ==== Inicio de la campaña fase3b_referencia_pfifo: 150 pruebas ====
+[2026-09-27 08:14:00] [1/150] dl_cubic_2_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 08:15:27]    valida
+[2026-09-27 08:15:54] [2/150] dl_cubic_2_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 08:17:20]    valida
+[2026-09-27 08:17:47] [3/150] ul_cubic_2_ue_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 08:19:00]    valida
+[2026-09-27 08:19:27] [4/150] dl_cubic_20_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 08:20:39]    valida
+[2026-09-27 08:21:07] [5/150] ul_cubic_1_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 08:22:38]    valida
+[2026-09-27 08:23:05] [6/150] dl_cubic_5_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 08:24:23]    valida
+[2026-09-27 08:24:50] [7/150] ul_cubic_20_ue_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 08:26:02]    valida
+[2026-09-27 08:26:29] [8/150] dl_cubic_20_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 08:27:42]    valida
+[2026-09-27 08:28:09] [9/150] ul_cubic_1_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 08:29:35]    valida
+[2026-09-27 08:30:02] [10/150] ul_cubic_5_ue_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 08:31:14]    valida
+[2026-09-27 08:31:41] [11/150] dl_cubic_2_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 08:33:08]    valida
+[2026-09-27 08:33:35] [12/150] ul_cubic_10_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 08:34:48]    valida
+[2026-09-27 08:35:15] [13/150] ul_cubic_20_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 08:36:27]    valida
+[2026-09-27 08:36:54] [14/150] dl_cubic_1_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 08:38:16]    valida
+[2026-09-27 08:38:43] [15/150] ul_cubic_20_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 08:39:55]    valida
+[2026-09-27 08:40:22] [16/150] ul_cubic_10_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 08:41:35]    valida
+[2026-09-27 08:42:03] [17/150] ul_cubic_1_ue_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 08:43:15]    valida
+[2026-09-27 08:43:42] [18/150] dl_cubic_20_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 08:44:55]    valida
+[2026-09-27 08:45:22] [19/150] ul_cubic_10_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 08:46:35]    valida
+[2026-09-27 08:47:02] [20/150] ul_cubic_2_ue_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 08:48:14]    valida
+[2026-09-27 08:48:41] [21/150] ul_cubic_5_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 08:49:55]    valida
+[2026-09-27 08:50:22] [22/150] ul_cubic_1_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 08:51:52]    valida
+[2026-09-27 08:52:19] [23/150] ul_cubic_2_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 08:53:40]    valida
+[2026-09-27 08:54:07] [24/150] dl_cubic_10_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 08:55:20]    valida
+[2026-09-27 08:55:47] [25/150] dl_cubic_5_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 08:57:04]    valida
+[2026-09-27 08:57:31] [26/150] dl_cubic_10_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 08:58:44]    valida
+[2026-09-27 08:59:11] [27/150] ul_cubic_20_ue_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 09:00:23]    valida
+[2026-09-27 09:00:50] [28/150] ul_cubic_5_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 09:02:04]    valida
+[2026-09-27 09:02:31] [29/150] dl_cubic_20_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 09:03:43]    valida
+[2026-09-27 09:04:10] [30/150] ul_cubic_10_ue_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 09:05:23]    valida
+[2026-09-27 09:05:50] [31/150] dl_cubic_5_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 09:07:07]    valida
+[2026-09-27 09:07:35] [32/150] dl_cubic_10_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 09:08:47]    valida
+[2026-09-27 09:09:14] [33/150] dl_cubic_10_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 09:10:27]    valida
+[2026-09-27 09:10:54] [34/150] dl_cubic_1_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 09:12:16]    valida
+[2026-09-27 09:12:43] [35/150] dl_cubic_10_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 09:13:56]    valida
+[2026-09-27 09:14:23] [36/150] dl_cubic_5_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 09:15:41]    valida
+[2026-09-27 09:16:08] [37/150] ul_cubic_20_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 09:17:21]    valida
+[2026-09-27 09:17:48] [38/150] dl_cubic_5_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 09:19:06]    valida
+[2026-09-27 09:19:33] [39/150] ul_cubic_5_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 09:20:46]    valida
+[2026-09-27 09:21:13] [40/150] ul_cubic_20_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 09:22:25]    valida
+[2026-09-27 09:22:52] [41/150] ul_cubic_2_ue_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 09:24:05]    valida
+[2026-09-27 09:24:32] [42/150] ul_cubic_2_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 09:25:50]    valida
+[2026-09-27 09:26:18] [43/150] ul_cubic_20_ue_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 09:27:30]    valida
+[2026-09-27 09:27:57] [44/150] ul_cubic_10_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 09:29:10]    valida
+[2026-09-27 09:29:37] [45/150] dl_cubic_20_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 09:30:50]    valida
+[2026-09-27 09:31:17] [46/150] dl_cubic_1_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 09:32:38]    valida
+[2026-09-27 09:33:05] [47/150] ul_cubic_2_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 09:34:25]    valida
+[2026-09-27 09:34:53] [48/150] ul_cubic_20_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 09:36:05]    valida
+[2026-09-27 09:36:33] [49/150] dl_cubic_1_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 09:37:54]    valida
+[2026-09-27 09:38:21] [50/150] dl_cubic_2_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 09:39:47]    valida
+[2026-09-27 09:40:14] [51/150] ul_cubic_1_ue_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 09:41:28]    valida
+[2026-09-27 09:41:55] [52/150] ul_cubic_2_ue_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 09:43:07]    valida
+[2026-09-27 09:43:34] [53/150] ul_cubic_10_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 09:44:47]    valida
+[2026-09-27 09:45:14] [54/150] ul_cubic_2_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 09:46:33]    valida
+[2026-09-27 09:47:00] [55/150] ul_cubic_5_ue_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 09:48:12]    valida
+[2026-09-27 09:48:39] [56/150] dl_cubic_2_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 09:50:06]    valida
+[2026-09-27 09:50:33] [57/150] dl_cubic_1_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 09:51:54]    valida
+[2026-09-27 09:52:21] [58/150] dl_cubic_10_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 09:53:34]    valida
+[2026-09-27 09:54:01] [59/150] ul_cubic_20_ue_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 09:55:13]    valida
+[2026-09-27 09:55:40] [60/150] ul_cubic_20_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 09:56:53]    valida
+[2026-09-27 09:57:20] [61/150] ul_cubic_10_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 09:58:34]    valida
+[2026-09-27 09:59:01] [62/150] dl_cubic_5_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 10:00:19]    valida
+[2026-09-27 10:00:46] [63/150] ul_cubic_10_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 10:01:59]    valida
+[2026-09-27 10:02:26] [64/150] dl_cubic_5_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 10:03:44]    valida
+[2026-09-27 10:04:11] [65/150] ul_cubic_1_ue_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 10:05:24]    valida
+[2026-09-27 10:05:51] [66/150] dl_cubic_1_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 10:07:12]    valida
+[2026-09-27 10:07:39] [67/150] ul_cubic_20_ue_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 10:08:51]    valida
+[2026-09-27 10:09:18] [68/150] ul_cubic_10_ue_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 10:10:30]    valida
+[2026-09-27 10:10:57] [69/150] dl_cubic_1_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 10:12:19]    valida
+[2026-09-27 10:12:46] [70/150] dl_cubic_2_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 10:14:12]    valida
+[2026-09-27 10:14:39] [71/150] dl_cubic_10_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 10:15:53]    valida
+[2026-09-27 10:16:20] [72/150] dl_cubic_2_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 10:17:47]    valida
+[2026-09-27 10:18:14] [73/150] ul_cubic_1_ue_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 10:19:27]    valida
+[2026-09-27 10:19:54] [74/150] dl_cubic_20_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 10:21:07]    valida
+[2026-09-27 10:21:34] [75/150] ul_cubic_2_ue_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 10:22:47]    valida
+[2026-09-27 10:23:14] [76/150] ul_cubic_2_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 10:24:34]    valida
+[2026-09-27 10:25:01] [77/150] ul_cubic_5_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 10:26:14]    valida
+[2026-09-27 10:26:41] [78/150] ul_cubic_1_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 10:28:11]    NO valida (pacing_invalido tarde=0.77% reanclajes=4)
+[2026-09-27 10:28:34] [78/150] ul_cubic_1_upf_pfifo rep 5 (modo rt, intento 2)
+[2026-09-27 10:30:02]    valida
+[2026-09-27 10:30:30] [79/150] dl_cubic_10_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 10:31:43]    valida
+[2026-09-27 10:32:10] [80/150] ul_cubic_2_ue_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 10:33:23]    valida
+[2026-09-27 10:33:50] [81/150] ul_cubic_10_ue_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 10:35:02]    valida
+[2026-09-27 10:35:29] [82/150] dl_cubic_20_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 10:36:42]    valida
+[2026-09-27 10:37:09] [83/150] dl_cubic_5_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 10:38:27]    valida
+[2026-09-27 10:38:54] [84/150] ul_cubic_2_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 10:40:14]    valida
+[2026-09-27 10:40:41] [85/150] ul_cubic_2_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 10:42:01]    valida
+[2026-09-27 10:42:28] [86/150] dl_cubic_20_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 10:43:41]    valida
+[2026-09-27 10:44:08] [87/150] ul_cubic_5_ue_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 10:45:20]    valida
+[2026-09-27 10:45:47] [88/150] ul_cubic_5_ue_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 10:47:00]    valida
+[2026-09-27 10:47:27] [89/150] ul_cubic_10_ue_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 10:48:39]    valida
+[2026-09-27 10:49:06] [90/150] ul_cubic_5_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 10:50:20]    valida
+[2026-09-27 10:50:47] [91/150] dl_cubic_2_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 10:52:15]    valida
+[2026-09-27 10:52:42] [92/150] dl_cubic_1_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 10:54:03]    valida
+[2026-09-27 10:54:30] [93/150] dl_cubic_10_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 10:55:43]    valida
+[2026-09-27 10:56:10] [94/150] ul_cubic_10_ue_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 10:57:22]    valida
+[2026-09-27 10:57:49] [95/150] ul_cubic_5_ue_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 10:59:02]    valida
+[2026-09-27 10:59:29] [96/150] ul_cubic_1_ue_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 11:00:42]    valida
+[2026-09-27 11:01:09] [97/150] dl_cubic_1_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 11:02:31]    valida
+[2026-09-27 11:02:58] [98/150] ul_cubic_5_ue_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 11:04:11]    valida
+[2026-09-27 11:04:38] [99/150] dl_cubic_5_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 11:05:56]    valida
+[2026-09-27 11:06:23] [100/150] ul_cubic_20_ue_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 11:07:35]    valida
+[2026-09-27 11:08:02] [101/150] ul_cubic_1_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 11:09:30]    valida
+[2026-09-27 11:09:57] [102/150] ul_cubic_2_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 11:11:18]    valida
+[2026-09-27 11:11:45] [103/150] dl_cubic_20_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 11:12:59]    valida
+[2026-09-27 11:13:26] [104/150] ul_cubic_20_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 11:14:39]    valida
+[2026-09-27 11:15:06] [105/150] ul_cubic_10_ue_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 11:16:18]    valida
+[2026-09-27 11:16:45] [106/150] ul_cubic_5_ue_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 11:17:58]    valida
+[2026-09-27 11:18:25] [107/150] dl_cubic_10_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 11:19:38]    valida
+[2026-09-27 11:20:05] [108/150] dl_cubic_2_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 11:21:32]    valida
+[2026-09-27 11:21:59] [109/150] ul_cubic_1_ue_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 11:23:12]    valida
+[2026-09-27 11:23:39] [110/150] dl_cubic_5_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 11:24:58]    valida
+[2026-09-27 11:25:25] [111/150] ul_cubic_5_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 11:26:38]    valida
+[2026-09-27 11:27:05] [112/150] ul_cubic_2_ue_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 11:28:18]    valida
+[2026-09-27 11:28:45] [113/150] ul_cubic_20_ue_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 11:29:57]    valida
+[2026-09-27 11:30:24] [114/150] ul_cubic_1_ue_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 11:31:37]    valida
+[2026-09-27 11:32:04] [115/150] ul_cubic_5_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 11:33:19]    valida
+[2026-09-27 11:33:46] [116/150] ul_cubic_20_ue_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 11:34:58]    valida
+[2026-09-27 11:35:25] [117/150] ul_cubic_10_upf_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 11:36:40]    valida
+[2026-09-27 11:37:07] [118/150] ul_cubic_2_ue_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 11:38:19]    valida
+[2026-09-27 11:38:46] [119/150] ul_cubic_1_ue_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 11:39:59]    valida
+[2026-09-27 11:40:27] [120/150] ul_cubic_5_ue_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 11:41:39]    valida
+[2026-09-27 11:42:06] [121/150] dl_cubic_2_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 11:43:33]    valida
+[2026-09-27 11:44:00] [122/150] ul_cubic_10_ue_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 11:45:13]    valida
+[2026-09-27 11:45:40] [123/150] ul_cubic_20_ue_pfifo rep 3 (modo rt, intento 1)
+[2026-09-27 11:46:52]    valida
+[2026-09-27 11:47:19] [124/150] ul_cubic_1_upf_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 11:48:58]    valida
+[2026-09-27 11:49:25] [125/150] ul_cubic_5_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 11:50:39]    valida
+[2026-09-27 11:51:06] [126/150] ul_cubic_5_ue_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 11:52:18]    valida
+[2026-09-27 11:52:45] [127/150] ul_cubic_1_upf_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 11:54:16]    valida
+[2026-09-27 11:54:43] [128/150] ul_cubic_1_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 11:56:13]    valida
+[2026-09-27 11:56:41] [129/150] dl_cubic_20_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 11:57:54]    valida
+[2026-09-27 11:58:21] [130/150] ul_cubic_5_ue_pfifo rep 2 (modo rt, intento 1)
+[2026-09-27 11:59:33]    valida
+[2026-09-27 12:00:00] [131/150] ul_cubic_1_ue_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 12:01:14]    valida
+[2026-09-27 12:01:41] [132/150] ul_cubic_2_ue_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 12:02:54]    valida
+[2026-09-27 12:03:21] [133/150] ul_cubic_5_upf_pfifo rep 9 (modo rt, intento 1)
+[2026-09-27 12:04:34]    valida
+[2026-09-27 12:05:01] [134/150] ul_cubic_10_ue_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 12:06:13]    valida
+[2026-09-27 12:06:40] [135/150] ul_cubic_1_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 12:08:09]    valida
+[2026-09-27 12:08:37] [136/150] ul_cubic_10_ue_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 12:09:49]    valida
+[2026-09-27 12:10:16] [137/150] ul_cubic_10_upf_pfifo rep 10 (modo rt, intento 1)
+[2026-09-27 12:11:29]    valida
+[2026-09-27 12:11:56] [138/150] ul_cubic_1_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 12:13:17]    valida
+[2026-09-27 12:13:44] [139/150] ul_cubic_20_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 12:14:57]    valida
+[2026-09-27 12:15:24] [140/150] ul_cubic_1_ue_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 12:16:37]    valida
+[2026-09-27 12:17:04] [141/150] ul_cubic_2_ue_pfifo rep 4 (modo rt, intento 1)
+[2026-09-27 12:18:17]    valida
+[2026-09-27 12:18:44] [142/150] ul_cubic_10_upf_pfifo rep 8 (modo rt, intento 1)
+[2026-09-27 12:19:59]    valida
+[2026-09-27 12:20:26] [143/150] ul_cubic_20_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 12:21:39]    valida
+[2026-09-27 12:22:06] [144/150] ul_cubic_10_ue_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 12:23:18]    valida
+[2026-09-27 12:23:45] [145/150] ul_cubic_20_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 12:24:58]    valida
+[2026-09-27 12:25:25] [146/150] ul_cubic_2_upf_pfifo rep 1 (modo rt, intento 1)
+[2026-09-27 12:26:48]    valida
+[2026-09-27 12:27:15] [147/150] ul_cubic_5_upf_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 12:28:29]    valida
+[2026-09-27 12:28:56] [148/150] dl_cubic_1_upf_pfifo rep 7 (modo rt, intento 1)
+[2026-09-27 12:30:18]    valida
+[2026-09-27 12:30:45] [149/150] ul_cubic_20_ue_pfifo rep 6 (modo rt, intento 1)
+[2026-09-27 12:31:57]    valida
+[2026-09-27 12:32:24] [150/150] ul_cubic_2_upf_pfifo rep 5 (modo rt, intento 1)
+[2026-09-27 12:33:45]    valida
+[2026-09-27 12:34:05] ==== Campaña terminada. Resumen: python3 ./resumen_campana.py /home/alumnos/campanas_oai/fase3b_referencia_pfifo ====

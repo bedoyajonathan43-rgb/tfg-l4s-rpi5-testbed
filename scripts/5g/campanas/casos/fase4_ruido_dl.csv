@@ -1,0 +1,17 @@
+caso,modo,dir,cca,punto,rate,qdisc,ruido
+dl_prague_5_upf_sinruido,rt,downlink,prague,upf-tun0,5,dualpi2,-50
+dl_cubic_5_upf_sinruido,rt,downlink,cubic,upf-tun0,5,dualpi2,-50
+dl_prague_5_upf_leve,rt,downlink,prague,upf-tun0,5,dualpi2,-8
+dl_cubic_5_upf_leve,rt,downlink,cubic,upf-tun0,5,dualpi2,-8
+dl_prague_5_upf_medio,rt,downlink,prague,upf-tun0,5,dualpi2,-4
+dl_cubic_5_upf_medio,rt,downlink,cubic,upf-tun0,5,dualpi2,-4
+dl_prague_5_upf_fuerte,rt,downlink,prague,upf-tun0,5,dualpi2,-2
+dl_cubic_5_upf_fuerte,rt,downlink,cubic,upf-tun0,5,dualpi2,-2
+dl_prague_sinlim_sinruido,rt,downlink,prague,ninguno,0,ninguno,-50
+dl_cubic_sinlim_sinruido,rt,downlink,cubic,ninguno,0,ninguno,-50
+dl_prague_sinlim_leve,rt,downlink,prague,ninguno,0,ninguno,-8
+dl_cubic_sinlim_leve,rt,downlink,cubic,ninguno,0,ninguno,-8
+dl_prague_sinlim_medio,rt,downlink,prague,ninguno,0,ninguno,-4
+dl_cubic_sinlim_medio,rt,downlink,cubic,ninguno,0,ninguno,-4
+dl_prague_sinlim_fuerte,rt,downlink,prague,ninguno,0,ninguno,-2
+dl_cubic_sinlim_fuerte,rt,downlink,cubic,ninguno,0,ninguno,-2
